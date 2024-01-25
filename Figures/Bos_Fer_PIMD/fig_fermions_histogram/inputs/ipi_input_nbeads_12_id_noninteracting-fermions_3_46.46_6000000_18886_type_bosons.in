@@ -1,0 +1,47 @@
+
+<simulation threading='True' verbosity='medium'>
+   <output prefix='simulation'>
+      <properties stride='100'> [ step, time{femtosecond}, conserved, temperature{kelvin},  
+            potential, virial_fq, kinetic_td, exchange_distinct_prob, exchange_all_prob, fermionic_sign ] </properties>
+      <trajectory stride='100' filename='pos' cell_units='angstrom'>positions{angstrom}</trajectory>
+   </output>
+   
+   <total_steps> 6000000 </total_steps>
+  
+   <ffsocket mode='unix' name='driver' pbc='true'>
+        <address> ba9c3ac921abe90470bfa05d6e07c4b3cbffb631 </address>
+   </ffsocket>
+   <prng>
+      <seed> 18886 </seed>
+   </prng>
+   <system>
+      <forces> 
+          <force forcefield='driver'></force>
+      </forces>
+      <initialize nbeads='12'>
+	<positions mode="manual" bead="0"> [-54, -50, -22, 21, 51, 73, 29, 60, -12] </positions>
+        <masses mode="manual"> ['1.0', '1.0', '1.0'] </masses>
+        <labels mode="manual"> ['E', 'E', 'E'] </labels>
+        <cell>
+           [   2500, 0, 0, 0, 2500, 0, 0, 0, 2500 ]
+        </cell>
+        <velocities mode='thermal' units='kelvin'> 46.46 </velocities>
+      </initialize>
+      <normal_modes propagator='bab'>
+        <nmts> 10 </nmts>
+          <bosons> [0, 1, 2] </bosons>
+        </normal_modes>
+      <ensemble>
+         <temperature units='kelvin'> 46.46 </temperature>
+      </ensemble>
+      <motion mode='dynamics'>
+    <fixcom> False </fixcom>
+        <dynamics mode='nvt'>
+         <timestep units='femtosecond'> 1.0 </timestep>
+      <thermostat mode='pile_l'>
+        <tau units='femtosecond'>100</tau>
+      </thermostat>
+        </dynamics>
+      </motion>
+  </system>
+</simulation>
