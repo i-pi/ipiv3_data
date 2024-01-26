@@ -22,7 +22,7 @@ plt.rcParams["ytick.direction"] = "in"
 plt.rc("xtick.major", size=tick_major_size, width=2)
 plt.rc("xtick.minor", size=tick_minor_size, width=2)
 plt.rc("ytick.major", size=tick_major_size, width=2)
-plt.rc("ytick.minor", size=tick_minor_size, width=2
+plt.rc("ytick.minor", size=tick_minor_size, width=2)
 
 def plot(x_label, y_label):
 
@@ -46,4 +46,5 @@ def plot(x_label, y_label):
    plt.show()
 
 if __name__ == '__main__':
+
     plot(x_label,y_label)
