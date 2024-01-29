@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 #Define axes
 x_label=r'$\beta \hbar \omega_0$'
-y_label=r'$\langle E \rangle / \hbar \omega_0$'
+y_label=r'$\langle E \rangle / (N \hbar \omega_0)$'
 
 # Define format
 plt.rc("font", **{"family": "sans-serif", "sans-serif": ["Arial"]})
@@ -24,9 +24,6 @@ plt.rc("ytick.major", size=tick_major_size, width=2)
 plt.rc("ytick.minor", size=tick_minor_size, width=2)
 
 def plot(x_label, y_label):
-       fig, (ax1, ax2) = plt.subplots(2, 1, sharex=True)
-       fig.subplots_adjust(hspace=0.05)  # adjust space between axes
-
        num_bosons = 512
 
        # results
@@ -34,43 +31,23 @@ def plot(x_label, y_label):
            x = np.loadtxt('data/%s_%s_x' % (num_bosons, ptype))
            y = np.loadtxt('data/%s_%s_y' % (num_bosons, ptype))
            err = np.loadtxt('data/%s_%s_err' % (num_bosons, ptype))
-           ax1.errorbar(x, y, err, linestyle='None', marker='o', label='%s' % ptype)
-           ax2.errorbar(x, y, err, linestyle='None', marker='o', label='%s' % ptype)
+           plt.errorbar(x, y / num_bosons, err / num_bosons, linestyle='None', marker='o', label='%s' % ptype)
 
        # analytical baseline
        for is_distinguishable in [True, False]:
            q = np.linspace(x[0]-0.1, x[-1]+0.1, 100)
-           vectorized_analytical_func = np.vectorize(lambda t: analytical_energy_bhw(num_bosons, t, is_distinguishable, dim=3))
+           vectorized_analytical_func = np.vectorize(lambda t: analytical_energy_bhw(num_bosons, t, is_distinguishable, dim=3) / num_bosons)
            p = vectorized_analytical_func(q)
-           ax1.plot(q, p, linestyle='--', color='black')
-           ax2.plot(q, p, linestyle='--', color='black')
-           #ax2.fill_between(q, p - 0.005 * p, p + 0.005 * p,alpha=0.3, facecolor='grey')
+           plt.plot(q, p, linestyle='--', color='black')
            plt.fill_between(q, p - 0.005 * p, p + 0.005 * p,alpha=0.3, facecolor='grey')
 
+       plt.gca().set_ylim(763.0 / num_bosons, 800.0 / num_bosons)
 
-
-       ax1.set_ylim(950, 1250)  # outliers only
-       ax2.set_ylim(750, 810)  # most of the data
-
-
-       # hide the spines between ax and ax2
-       ax1.spines.bottom.set_visible(False)
-       ax2.spines.top.set_visible(False)
-       ax1.xaxis.tick_top()
-       ax1.tick_params(labeltop=False)  # don't put tick labels at the top
-       ax2.xaxis.tick_bottom()
-
-       d = 0.5  # proportion of vertical to horizontal extent of the slanted line
-       kwargs = dict(marker=[(-1, -d), (1, d)], markersize=12,
-                     linestyle="none", color='k', mec='k', mew=1, clip_on=False)
-       ax1.plot([0, 1], [0, 0], transform=ax1.transAxes, **kwargs)
-       ax2.plot([0, 1], [1, 1], transform=ax2.transAxes, **kwargs)
-
-       ax1.legend(loc="upper right", fontsize=legend_fontsize)
+       plt.legend(loc="upper right", fontsize=legend_fontsize)
 
        plt.xlabel(x_label)
        plt.ylabel(y_label)
-       ax2.yaxis.set_label_coords(-.15, 1)
+       # plt.gca().yaxis.set_label_coords(-.15, 1)
 
        plt.savefig('ipi_noninteracting_temperature_512.pdf', bbox_inches='tight')
        plt.show()
