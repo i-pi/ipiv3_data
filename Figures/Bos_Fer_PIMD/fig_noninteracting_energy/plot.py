@@ -43,7 +43,7 @@ def plot(x_label, y_label):
 
        plt.gca().set_ylim(763.0 / num_bosons, 800.0 / num_bosons)
 
-       plt.legend(loc="upper right", fontsize=legend_fontsize)
+       plt.legend(loc="center left", fontsize=legend_fontsize)
 
        plt.xlabel(x_label)
        plt.ylabel(y_label)
