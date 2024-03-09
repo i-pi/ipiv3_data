@@ -1,0 +1,48 @@
+###############################################################################
+# MD simulation for NN water
+###############################################################################
+
+###############################################################################
+# VARIABLES
+###############################################################################
+clear
+# Configuration files
+variable cfgFile         string "data.lmp"
+# Timesteps
+variable numSteps        equal  100
+variable dt              equal  0.00025
+# NN
+variable nnpCutoff       equal  8.466835984
+variable nnpDir          string "/users/kvenkat/scratch/potentials/h2o/gen006/train_001/"
+# Masses
+variable mass_H          equal  1.00794
+variable mass_O          equal  15.9994
+
+###############################################################################
+# GENERAL SETUP
+###############################################################################
+units metal
+boundary p p p
+atom_style atomic
+read_data ${cfgFile}
+mass 1 ${mass_H}
+mass 2 ${mass_O}
+timestep ${dt}
+thermo 1000
+
+###############################################################################
+# NN
+###############################################################################
+#pair_style nnp dir ${nnpDir} showew no showewsum 1 resetew yes maxew 200000 cflength 1.889726 cfenergy 0.036749
+#pair_coeff * * ${nnpCutoff}
+
+###############################################################################
+# INTEGRATOR
+###############################################################################
+fix npt all npt temp 300 300 100 iso 1 1 1000
+dump 1 all atom 1000 traj.dump
+
+###############################################################################
+# SIMULATION
+###############################################################################
+run ${numSteps}
