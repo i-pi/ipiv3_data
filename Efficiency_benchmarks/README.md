@@ -19,5 +19,6 @@ structures: a directory containing simulation water molecule boxes with icreasin
 
 .py: python scripts to extract timings of i-pi and LAMMPS simulations. 
 
+nnp: The Behlar-Parrinello neural network potential files from Ravindra, P., Advincula, X. R., Schran, C., Michaelides, A., & Kapil, V. (2023). A quasi-one-dimensional hydrogen-bonded monolayer ice phase. https://doi.org/10.48550/ARXIV.2312.01340
 
 The figure present in the main text can be found in the ../Figures/Efficiency folder
