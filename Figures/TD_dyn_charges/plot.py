@@ -85,16 +85,16 @@ ax.grid(linestyle="dashed",alpha=0.7)
 
 
 legend1 = ax.legend(facecolor='white', ncol=5,
-                    framealpha=1, edgecolor="black", loc="lower left", fontsize=fontsize-2, title_fontsize=fontsize-2)
+                    framealpha=1, edgecolor="black", loc="lower left", fontsize=fontsize, title_fontsize=fontsize)
 
 legend2 = ax2.legend(facecolor='white', ncol=2, \
-           framealpha=1, edgecolor="black", loc="upper left", fontsize=fontsize-2)
+           framealpha=1, edgecolor="black", loc="upper left", fontsize=fontsize)
 
 legend1._legend_box.align = "left"
 legend2._legend_box.align = "left"
 
 ax.add_artist(legend1)
-legend1.set_bbox_to_anchor((-0.15, 1.0))  # Adjust the values as needed
+legend1.set_bbox_to_anchor((-0.20, 1.0))  # Adjust the values as needed
 
 plt.autoscale()
 ext="pdf"
