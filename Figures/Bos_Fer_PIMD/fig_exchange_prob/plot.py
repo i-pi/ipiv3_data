@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 #Define axes
 x_label = r'$\beta \hbar \omega_0$'
-y_label = r'exchange-all $/$ $(1/N)$'
+y_label = r'exchange_all_prob'
 
 
 # Define format
