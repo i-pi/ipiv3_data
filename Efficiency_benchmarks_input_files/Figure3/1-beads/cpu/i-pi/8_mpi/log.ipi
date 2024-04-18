@@ -1,0 +1,253 @@
+
+ ____       ____       ____       ____
+/    \     /    \     /    \     /    \
+|  #################################  |
+\__#_/     \____/     \____/     \_#__/
+   #    _        _______  _____    #
+   #   (_)      |_   __ \|_   _|   #      -*-     v 2.6.3  -*-
+   #   __  ______ | |__) | | |     #
+   Y  [  ||______||  ___/  | |     #      A Universal Force Engine
+  0 0  | |       _| |_    _| |_    #
+   #  [___]     |_____|  |_____|   #
+ __#_       ____       ____       _#__
+/  # \     /    \     /    \     / #  \
+|  #################################  |
+\____/     \____/     \____/     \____/
+
+    
+ # @simulation: Fetchingffsocket
+ # Initializing system object 
+ # Initializing simulation object 
+ # Initializer (stage 1) parsing positions object.
+ # Initializing from file ../init.xyz. Dimension: length, units: automatic, cell_units: automatic
+ # Interpreting input with dimension length, units angstrom and cell units angstrom
+ # Initializer (stage 1) parsing masses object.
+ # Initializing from file ../init.xyz. Dimension: length, units: automatic, cell_units: automatic
+ # Interpreting input with dimension length, units angstrom and cell units angstrom
+ # Initializer (stage 1) parsing labels object.
+ # Initializing from file ../init.xyz. Dimension: length, units: automatic, cell_units: automatic
+ # Interpreting input with dimension length, units angstrom and cell units angstrom
+ # Initializer (stage 1) parsing cell object.
+ # Initializing from file ../init.xyz. Dimension: length, units: automatic, cell_units: automatic
+ # Interpreting input with dimension length, units angstrom and cell units angstrom
+ # Initializing from file ../init.xyz. Dimension: length, units: automatic, cell_units: automatic
+ # Interpreting input with dimension length, units angstrom and cell units angstrom
+ # Initializer (stage 1) parsing velocities object.
+ # Resampling velocities at temperature 300.0 kelvin
+ # Binding the forces 
+ # Initializer (stage 2) parsing positions object.
+ # Initializer (stage 2) parsing masses object.
+ # Initializer (stage 2) parsing labels object.
+ # Initializer (stage 2) parsing cell object.
+ # Initializer (stage 2) parsing velocities object.
+Created unix socket with address driver
+ @ForceField: Starting the polling thread main loop.
+ # i-PI loaded input file:  ../input_xml.xml
+ @SOCKET:   Client asked for connection from . Now hand-shaking.
+ @SOCKET:   Handshaking was successful. Added to the client list.
+ @SOCKET: 24/04/16-14:34:21 Assigning [ none] request id    0 to client with last-id None (  0/  1 : )
+ @SOCKET: 24/04/16-14:34:23 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : )
+ # Average timings at MD step       0. t/step: 1.51216e+00
+ @SOCKET: 24/04/16-14:34:24 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : )
+ # Average timings at MD step       1. t/step: 1.50518e+00
+ @SOCKET: 24/04/16-14:34:26 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : )
+ # Average timings at MD step       2. t/step: 1.51185e+00
+ @SOCKET: 24/04/16-14:34:27 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : )
+ # Average timings at MD step       3. t/step: 1.51841e+00
+ @SOCKET: 24/04/16-14:34:29 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : )
+ # Average timings at MD step       4. t/step: 1.50934e+00
+ @SOCKET: 24/04/16-14:34:30 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : )
+ # Average timings at MD step       5. t/step: 1.51515e+00
+ @SOCKET: 24/04/16-14:34:32 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : )
+ # Average timings at MD step       6. t/step: 1.51978e+00
+ @SOCKET: 24/04/16-14:34:33 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : )
+ # Average timings at MD step       7. t/step: 1.51695e+00
+ @SOCKET: 24/04/16-14:34:35 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : )
+ # Average timings at MD step       8. t/step: 1.51501e+00
+ @SOCKET: 24/04/16-14:34:36 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : )
+ # Average timings at MD step       9. t/step: 1.51081e+00
+ @SOCKET: 24/04/16-14:34:38 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : )
+ # Average timings at MD step      10. t/step: 1.51076e+00
+ @SOCKET: 24/04/16-14:34:39 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : )
+ # Average timings at MD step      11. t/step: 1.51017e+00
+ @SOCKET: 24/04/16-14:34:41 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : )
+ # Average timings at MD step      12. t/step: 1.51960e+00
+ @SOCKET: 24/04/16-14:34:43 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : )
+ # Average timings at MD step      13. t/step: 1.51555e+00
+ @SOCKET: 24/04/16-14:34:44 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : )
+ # Average timings at MD step      14. t/step: 1.51182e+00
+ @SOCKET: 24/04/16-14:34:46 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : )
+ # Average timings at MD step      15. t/step: 1.50661e+00
+ @SOCKET: 24/04/16-14:34:47 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : )
+ # Average timings at MD step      16. t/step: 1.51015e+00
+ @SOCKET: 24/04/16-14:34:49 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : )
+ # Average timings at MD step      17. t/step: 1.51225e+00
+ @SOCKET: 24/04/16-14:34:50 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : )
+ # Average timings at MD step      18. t/step: 1.51271e+00
+ @SOCKET: 24/04/16-14:34:52 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : )
+ # Average timings at MD step      19. t/step: 1.51245e+00
+ @SOCKET: 24/04/16-14:34:53 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : )
+ # Average timings at MD step      20. t/step: 1.52055e+00
+ @SOCKET: 24/04/16-14:34:55 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : )
+ # Average timings at MD step      21. t/step: 1.52789e+00
+ @SOCKET: 24/04/16-14:34:56 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : )
+ # Average timings at MD step      22. t/step: 1.51476e+00
+ @SOCKET: 24/04/16-14:34:58 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : )
+ # Average timings at MD step      23. t/step: 1.51044e+00
+ @SOCKET: 24/04/16-14:34:59 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : )
+ # Average timings at MD step      24. t/step: 1.51735e+00
+ @SOCKET: 24/04/16-14:35:01 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : )
+ # Average timings at MD step      25. t/step: 1.51158e+00
+ @SOCKET: 24/04/16-14:35:02 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : )
+ # Average timings at MD step      26. t/step: 1.50691e+00
+ @SOCKET: 24/04/16-14:35:04 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : )
+ # Average timings at MD step      27. t/step: 1.50801e+00
+ @SOCKET: 24/04/16-14:35:05 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : )
+ # Average timings at MD step      28. t/step: 1.50555e+00
+ @SOCKET: 24/04/16-14:35:07 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : )
+ # Average timings at MD step      29. t/step: 1.51417e+00
+ @SOCKET: 24/04/16-14:35:08 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : )
+ # Average timings at MD step      30. t/step: 1.50889e+00
+ @SOCKET: 24/04/16-14:35:10 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : )
+ # Average timings at MD step      31. t/step: 1.51695e+00
+ @SOCKET: 24/04/16-14:35:11 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : )
+ # Average timings at MD step      32. t/step: 1.50998e+00
+ @SOCKET: 24/04/16-14:35:13 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : )
+ # Average timings at MD step      33. t/step: 1.50686e+00
+ @SOCKET: 24/04/16-14:35:14 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : )
+ # Average timings at MD step      34. t/step: 1.50336e+00
+ @SOCKET: 24/04/16-14:35:16 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : )
+ # Average timings at MD step      35. t/step: 1.50297e+00
+ @SOCKET: 24/04/16-14:35:17 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : )
+ # Average timings at MD step      36. t/step: 1.50501e+00
+ @SOCKET: 24/04/16-14:35:19 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : )
+ # Average timings at MD step      37. t/step: 1.50560e+00
+ @SOCKET: 24/04/16-14:35:20 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : )
+ # Average timings at MD step      38. t/step: 1.50787e+00
+ @SOCKET: 24/04/16-14:35:22 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : )
+ # Average timings at MD step      39. t/step: 1.50950e+00
+ @SOCKET: 24/04/16-14:35:23 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : )
+ # Average timings at MD step      40. t/step: 1.50224e+00
+ @SOCKET: 24/04/16-14:35:25 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : )
+ # Average timings at MD step      41. t/step: 1.50955e+00
+ @SOCKET: 24/04/16-14:35:26 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : )
+ # Average timings at MD step      42. t/step: 1.49939e+00
+ @SOCKET: 24/04/16-14:35:28 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : )
+ # Average timings at MD step      43. t/step: 1.51685e+00
+ @SOCKET: 24/04/16-14:35:29 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : )
+ # Average timings at MD step      44. t/step: 1.51327e+00
+ @SOCKET: 24/04/16-14:35:31 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : )
+ # Average timings at MD step      45. t/step: 1.50408e+00
+ @SOCKET: 24/04/16-14:35:32 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : )
+ # Average timings at MD step      46. t/step: 1.50411e+00
+ @SOCKET: 24/04/16-14:35:34 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : )
+ # Average timings at MD step      47. t/step: 1.50681e+00
+ @SOCKET: 24/04/16-14:35:35 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : )
+ # Average timings at MD step      48. t/step: 1.50786e+00
+ @SOCKET: 24/04/16-14:35:37 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : )
+ # Average timings at MD step      49. t/step: 1.51696e+00
+ @SOCKET: 24/04/16-14:35:38 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : )
+ # Average timings at MD step      50. t/step: 1.50507e+00
+ @SOCKET: 24/04/16-14:35:40 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : )
+ # Average timings at MD step      51. t/step: 1.51783e+00
+ @SOCKET: 24/04/16-14:35:41 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : )
+ # Average timings at MD step      52. t/step: 1.51460e+00
+ @SOCKET: 24/04/16-14:35:43 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : )
+ # Average timings at MD step      53. t/step: 1.51067e+00
+ @SOCKET: 24/04/16-14:35:44 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : )
+ # Average timings at MD step      54. t/step: 1.50296e+00
+ @SOCKET: 24/04/16-14:35:46 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : )
+ # Average timings at MD step      55. t/step: 1.49760e+00
+ @SOCKET: 24/04/16-14:35:47 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : )
+ # Average timings at MD step      56. t/step: 1.50895e+00
+ @SOCKET: 24/04/16-14:35:49 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : )
+ # Average timings at MD step      57. t/step: 1.49871e+00
+ @SOCKET: 24/04/16-14:35:50 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : )
+ # Average timings at MD step      58. t/step: 1.50560e+00
+ @SOCKET: 24/04/16-14:35:52 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : )
+ # Average timings at MD step      59. t/step: 1.50185e+00
+ @SOCKET: 24/04/16-14:35:53 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : )
+ # Average timings at MD step      60. t/step: 1.50426e+00
+ @SOCKET: 24/04/16-14:35:55 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : )
+ # Average timings at MD step      61. t/step: 1.50457e+00
+ @SOCKET: 24/04/16-14:35:56 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : )
+ # Average timings at MD step      62. t/step: 1.50269e+00
+ @SOCKET: 24/04/16-14:35:58 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : )
+ # Average timings at MD step      63. t/step: 1.51122e+00
+ @SOCKET: 24/04/16-14:35:59 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : )
+ # Average timings at MD step      64. t/step: 1.50836e+00
+ @SOCKET: 24/04/16-14:36:01 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : )
+ # Average timings at MD step      65. t/step: 1.50444e+00
+ @SOCKET: 24/04/16-14:36:02 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : )
+ # Average timings at MD step      66. t/step: 1.51414e+00
+ @SOCKET: 24/04/16-14:36:04 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : )
+ # Average timings at MD step      67. t/step: 1.50563e+00
+ @SOCKET: 24/04/16-14:36:06 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : )
+ # Average timings at MD step      68. t/step: 1.51104e+00
+ @SOCKET: 24/04/16-14:36:07 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : )
+ # Average timings at MD step      69. t/step: 1.50427e+00
+ @SOCKET: 24/04/16-14:36:09 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : )
+ # Average timings at MD step      70. t/step: 1.50423e+00
+ @SOCKET: 24/04/16-14:36:10 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : )
+ # Average timings at MD step      71. t/step: 1.50406e+00
+ @SOCKET: 24/04/16-14:36:12 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : )
+ # Average timings at MD step      72. t/step: 1.50527e+00
+ @SOCKET: 24/04/16-14:36:13 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : )
+ # Average timings at MD step      73. t/step: 1.50500e+00
+ @SOCKET: 24/04/16-14:36:15 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : )
+ # Average timings at MD step      74. t/step: 1.50367e+00
+ @SOCKET: 24/04/16-14:36:16 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : )
+ # Average timings at MD step      75. t/step: 1.50740e+00
+ @SOCKET: 24/04/16-14:36:18 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : )
+ # Average timings at MD step      76. t/step: 1.50654e+00
+ @SOCKET: 24/04/16-14:36:19 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : )
+ # Average timings at MD step      77. t/step: 1.50483e+00
+ @SOCKET: 24/04/16-14:36:21 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : )
+ # Average timings at MD step      78. t/step: 1.50212e+00
+ @SOCKET: 24/04/16-14:36:22 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : )
+ # Average timings at MD step      79. t/step: 1.50493e+00
+ @SOCKET: 24/04/16-14:36:24 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : )
+ # Average timings at MD step      80. t/step: 1.50453e+00
+ @SOCKET: 24/04/16-14:36:25 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : )
+ # Average timings at MD step      81. t/step: 1.49887e+00
+ @SOCKET: 24/04/16-14:36:27 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : )
+ # Average timings at MD step      82. t/step: 1.50359e+00
+ @SOCKET: 24/04/16-14:36:28 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : )
+ # Average timings at MD step      83. t/step: 1.50128e+00
+ @SOCKET: 24/04/16-14:36:30 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : )
+ # Average timings at MD step      84. t/step: 1.50566e+00
+ @SOCKET: 24/04/16-14:36:31 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : )
+ # Average timings at MD step      85. t/step: 1.51291e+00
+ @SOCKET: 24/04/16-14:36:33 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : )
+ # Average timings at MD step      86. t/step: 1.51000e+00
+ @SOCKET: 24/04/16-14:36:34 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : )
+ # Average timings at MD step      87. t/step: 1.50889e+00
+ @SOCKET: 24/04/16-14:36:36 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : )
+ # Average timings at MD step      88. t/step: 1.50703e+00
+ @SOCKET: 24/04/16-14:36:37 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : )
+ # Average timings at MD step      89. t/step: 1.50215e+00
+ @SOCKET: 24/04/16-14:36:39 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : )
+ # Average timings at MD step      90. t/step: 1.50741e+00
+ @SOCKET: 24/04/16-14:36:40 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : )
+ # Average timings at MD step      91. t/step: 1.50992e+00
+ @SOCKET: 24/04/16-14:36:42 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : )
+ # Average timings at MD step      92. t/step: 1.50310e+00
+ @SOCKET: 24/04/16-14:36:43 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : )
+ # Average timings at MD step      93. t/step: 1.50465e+00
+ @SOCKET: 24/04/16-14:36:45 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : )
+ # Average timings at MD step      94. t/step: 1.50990e+00
+ @SOCKET: 24/04/16-14:36:46 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : )
+ # Average timings at MD step      95. t/step: 1.50315e+00
+ @SOCKET: 24/04/16-14:36:48 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : )
+ # Average timings at MD step      96. t/step: 1.50667e+00
+ @SOCKET: 24/04/16-14:36:49 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : )
+ # Average timings at MD step      97. t/step: 1.50104e+00
+ @SOCKET: 24/04/16-14:36:51 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : )
+ # Average timings at MD step      98. t/step: 1.50337e+00
+ @SOCKET: 24/04/16-14:36:52 Assigning [match] request id    0 to client with last-id    0 (  0/  1 : )
+ # Average timings at MD step      99. t/step: 1.53577e+00
+SOFTEXIT CALLED FROM THREAD <_MainThread(MainThread, started 140075978063360)>  @ SIMULATION: Exiting cleanly.
+ !W! Soft exit has been requested with message: ' @ SIMULATION: Exiting cleanly.
+I-PI reports success. Restartable as is: NO.'. Cleaning up.
+ @SOCKET: Shutting down the driver interface.
+SOFTEXIT: Saving the latest status at the end of the step
