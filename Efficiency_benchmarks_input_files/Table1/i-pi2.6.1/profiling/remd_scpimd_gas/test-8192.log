@@ -1,0 +1,6 @@
+/home/tisi/ipi-paper-test/i-pi-main-tag2.6.1/ipi/engine/forcefields.py:437: RuntimeWarning: divide by zero encountered in divide
+  x6 = (self.sigma2 / rij2) ** 3
+/home/tisi/ipi-paper-test/i-pi-main-tag2.6.1/ipi/engine/forcefields.py:440: RuntimeWarning: invalid value encountered in subtract
+  v += (x12 - x6).sum()
+/home/tisi/ipi-paper-test/i-pi-main-tag2.6.1/ipi/engine/forcefields.py:441: RuntimeWarning: invalid value encountered in subtract
+  dij *= (self.sixepsfour * (2.0 * x12 - x6) / rij2)[:, np.newaxis]

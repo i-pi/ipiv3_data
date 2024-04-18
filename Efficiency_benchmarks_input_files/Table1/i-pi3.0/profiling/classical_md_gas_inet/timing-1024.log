@@ -1,0 +1,5 @@
+Error opening UNIX socket: path unavailable, or already existing: No such file or directory
+
+real	6m51.390s
+user	0m12.869s
+sys	0m5.168s

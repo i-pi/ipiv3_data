@@ -1,0 +1,45 @@
+
+ ____       ____       ____       ____
+/    \     /    \     /    \     /    \
+|  #################################  |
+\__#_/     \____/     \____/     \_#__/
+   #    _        _______  _____    #
+   #   (_)      |_   __ \|_   _|   #      -*-     v 2.6.0  -*-
+   #   __  ______ | |__) | | |     #
+   Y  [  ||______||  ___/  | |     #      A Universal Force Engine
+  0 0  | |       _| |_    _| |_    #
+   #  [___]     |_____|  |_____|   #
+ __#_       ____       ____       _#__
+/  # \     /    \     /    \     / #  \
+|  #################################  |
+\____/     \____/     \____/     \____/
+
+    
+ # @simulation: Fetchingfflj
+ # Initializing system object 
+ # Initializing simulation object 
+ # Initializing from file test-8192.xyz. Dimension: length, units: automatic, cell_units: automatic
+ # Initializing from file test-8192.xyz. Dimension: length, units: automatic, cell_units: automatic
+ # Initializing from file test-8192.xyz. Dimension: length, units: automatic, cell_units: automatic
+ # Initializing from file test-8192.xyz. Dimension: length, units: automatic, cell_units: automatic
+ # Resampling velocities at temperature 1.0 automatic
+ # Binding the forces 
+Backup performed: simulation.pos_0.xyz -> #simulation.pos_0.xyz#1#
+Backup performed: simulation.out -> #simulation.out#1#
+ # i-PI loaded input file:  test-8192.xml
+ !W! Forcefield returned a zero stress tensor. NPT simulation will likely make no sense
+ # Average timings at MD step       0. t/step: 2.67434e-03
+ # Average timings at MD step    1000. t/step: 2.14273e-03
+ # Average timings at MD step    2000. t/step: 2.12618e-03
+ # Average timings at MD step    3000. t/step: 2.12655e-03
+ # Average timings at MD step    4000. t/step: 2.12744e-03
+ # Average timings at MD step    5000. t/step: 2.12700e-03
+ # Average timings at MD step    6000. t/step: 2.12851e-03
+ # Average timings at MD step    7000. t/step: 2.12521e-03
+ # Average timings at MD step    8000. t/step: 2.12729e-03
+ # Average timings at MD step    9000. t/step: 2.12696e-03
+SOFTEXIT CALLED FROM THREAD <_MainThread(MainThread, started 140402581984256)>  @ SIMULATION: Exiting cleanly.
+ !W! Soft exit has been requested with message: ' @ SIMULATION: Exiting cleanly.
+I-PI reports success. Restartable as is: NO.'. Cleaning up.
+SOFTEXIT: Saving the latest status at the end of the step
+Backup performed: RESTART -> #RESTART#1#

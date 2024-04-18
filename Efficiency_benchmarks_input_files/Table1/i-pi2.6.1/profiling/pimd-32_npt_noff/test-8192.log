@@ -1,0 +1,71 @@
+
+ ____       ____       ____       ____
+/    \     /    \     /    \     /    \
+|  #################################  |
+\__#_/     \____/     \____/     \_#__/
+   #    _        _______  _____    #
+   #   (_)      |_   __ \|_   _|   #      -*-     v 2.6.0  -*-
+   #   __  ______ | |__) | | |     #
+   Y  [  ||______||  ___/  | |     #      A Universal Force Engine
+  0 0  | |       _| |_    _| |_    #
+   #  [___]     |_____|  |_____|   #
+ __#_       ____       ____       _#__
+/  # \     /    \     /    \     / #  \
+|  #################################  |
+\____/     \____/     \____/     \____/
+
+    
+ # @simulation: Fetchingfflj
+ # Initializing system object 
+ # Initializing simulation object 
+ # Initializing from file test-8192.xyz. Dimension: length, units: automatic, cell_units: automatic
+ # Initialize is rescaling from     1 beads to    32 beads
+ # Initializing from file test-8192.xyz. Dimension: length, units: automatic, cell_units: automatic
+ # Initializing from file test-8192.xyz. Dimension: length, units: automatic, cell_units: automatic
+ # Initializing from file test-8192.xyz. Dimension: length, units: automatic, cell_units: automatic
+ # Resampling velocities at temperature 1.0 automatic
+ # Binding the forces 
+Backup performed: simulation.pos_00.xyz -> #simulation.pos_00.xyz#1#
+Backup performed: simulation.pos_01.xyz -> #simulation.pos_01.xyz#1#
+Backup performed: simulation.pos_02.xyz -> #simulation.pos_02.xyz#1#
+Backup performed: simulation.pos_03.xyz -> #simulation.pos_03.xyz#1#
+Backup performed: simulation.pos_04.xyz -> #simulation.pos_04.xyz#1#
+Backup performed: simulation.pos_05.xyz -> #simulation.pos_05.xyz#1#
+Backup performed: simulation.pos_06.xyz -> #simulation.pos_06.xyz#1#
+Backup performed: simulation.pos_07.xyz -> #simulation.pos_07.xyz#1#
+Backup performed: simulation.pos_08.xyz -> #simulation.pos_08.xyz#1#
+Backup performed: simulation.pos_09.xyz -> #simulation.pos_09.xyz#1#
+Backup performed: simulation.pos_10.xyz -> #simulation.pos_10.xyz#1#
+Backup performed: simulation.pos_11.xyz -> #simulation.pos_11.xyz#1#
+Backup performed: simulation.pos_12.xyz -> #simulation.pos_12.xyz#1#
+Backup performed: simulation.pos_13.xyz -> #simulation.pos_13.xyz#1#
+Backup performed: simulation.pos_14.xyz -> #simulation.pos_14.xyz#1#
+Backup performed: simulation.pos_15.xyz -> #simulation.pos_15.xyz#1#
+Backup performed: simulation.pos_16.xyz -> #simulation.pos_16.xyz#1#
+Backup performed: simulation.pos_17.xyz -> #simulation.pos_17.xyz#1#
+Backup performed: simulation.pos_18.xyz -> #simulation.pos_18.xyz#1#
+Backup performed: simulation.pos_19.xyz -> #simulation.pos_19.xyz#1#
+Backup performed: simulation.pos_20.xyz -> #simulation.pos_20.xyz#1#
+Backup performed: simulation.pos_21.xyz -> #simulation.pos_21.xyz#1#
+Backup performed: simulation.pos_22.xyz -> #simulation.pos_22.xyz#1#
+Backup performed: simulation.pos_23.xyz -> #simulation.pos_23.xyz#1#
+Backup performed: simulation.pos_24.xyz -> #simulation.pos_24.xyz#1#
+Backup performed: simulation.pos_25.xyz -> #simulation.pos_25.xyz#1#
+Backup performed: simulation.pos_26.xyz -> #simulation.pos_26.xyz#1#
+Backup performed: simulation.pos_27.xyz -> #simulation.pos_27.xyz#1#
+Backup performed: simulation.pos_28.xyz -> #simulation.pos_28.xyz#1#
+Backup performed: simulation.pos_29.xyz -> #simulation.pos_29.xyz#1#
+Backup performed: simulation.pos_30.xyz -> #simulation.pos_30.xyz#1#
+Backup performed: simulation.pos_31.xyz -> #simulation.pos_31.xyz#1#
+Backup performed: simulation.out -> #simulation.out#1#
+ # i-PI loaded input file:  test-8192.xml
+ !W! Forcefield returned a zero stress tensor. NPT simulation will likely make no sense
+ # Average timings at MD step       0. t/step: 1.01086e-01
+ # Average timings at MD step    1000. t/step: 9.45685e-02
+ # Average timings at MD step    2000. t/step: 9.42357e-02
+ # Average timings at MD step    3000. t/step: 9.38597e-02
+SOFTEXIT CALLED FROM THREAD <_MainThread(MainThread, started 139746337342464)>  @ SIMULATION: Exiting cleanly.
+ !W! Soft exit has been requested with message: ' @ SIMULATION: Exiting cleanly.
+I-PI reports success. Restartable as is: NO.'. Cleaning up.
+SOFTEXIT: Saving the latest status at the end of the step
+Backup performed: RESTART -> #RESTART#1#
