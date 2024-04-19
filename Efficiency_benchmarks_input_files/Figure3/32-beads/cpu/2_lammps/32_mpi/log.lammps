@@ -12,7 +12,7 @@ Reading data file ...
   2 by 4 by 4 MPI processor grid
   reading atoms ...
   12288 atoms
-  read_data CPU = 0.032 seconds
+  read_data CPU = 0.027 seconds
 
 pair_style deepmd ../frozen_model.pb
 Summary of lammps deepmd module ...
@@ -91,5 +91,20 @@ CITE-CITE-CITE-CITE-CITE-CITE-CITE-CITE-CITE-CITE-CITE-CITE-CITE
 
 WARNING: No fixes with time integration, atoms won't move (src/src/verlet.cpp:60)
 Generated 0 of 1 mixed pair_coeff terms from geometric mixing rule
-ERROR on proc 0: Error opening UNIX socket: server may not be running or the path to the socket unavailable (src/src/MISC/fix_ipi.cpp:123)
+Neighbor list info ...
+  update: every = 1 steps, delay = 0 steps, check = yes
+  max neighbors/atom: 2000, page size: 100000
+  master list distance cutoff = 6.1
+  ghost atom cutoff = 6.1
+  binsize = 3.05, bins = 17 17 17
+  1 neighbor lists, perpetual/occasional/extra = 1 0 0
+  (1) pair deepmd, perpetual
+      attributes: full, newton on
+      pair build: full/bin/atomonly
+      stencil: full/bin/3d
+      bin: standard
+Per MPI rank memory allocation (min/avg/max) = 3.134 | 3.135 | 3.137 Mbytes
+   Step          Time           Temp          PotEng         TotEng         Press          Volume          Pxx            Pyy            Pzz            Pxy            Pxz            Pyz      
+         0   0              0             -1917578.7     -1917578.7      36197.507      133077.27      36365.475      36365.475      35861.571      0.00010368371 -0.0010705934  -0.0012015717 
+ERROR on proc 0: Got EXIT message from i-PI. Now leaving! (src/src/MISC/fix_ipi.cpp:294)
 Last command: run		10000000
