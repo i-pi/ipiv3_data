@@ -12,3 +12,8 @@ Each of these subfolders contains other 2 folders `i-pi` and `lammps` that defin
 - The `32-beads` folder contains the inputs to generate the data for the PIMD runs with 32 beads on all the architectures. I contains two folders `cpu` and `gpu` that determine on which architecture the tests are run on.
 Each of these subfolders contains folders named `i_lammps`, each one containing the simulation with `i` lammps instances.
 
+
+All the calculations on CPU are done on compute nodes of JED (https://www.epfl.ch/research/facilities/scitas/jed/): 2 Intel(R) Xeon(R) Platinum 8360Y processors running at 2.4 GHz, with 36 cores each (72 cores per machine)
+All the calculations on GPU are done on compute nodes of IZAR (https://www.epfl.ch/research/facilities/scitas/hardware/izar/). Each node has 2 Xeon-Gold processors running at 2.1 GHz, with 20 cores each, with 2 NVIDIA V100 PCIe 32 GB GPUs. 
+
+
