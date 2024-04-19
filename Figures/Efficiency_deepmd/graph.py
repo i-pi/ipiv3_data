@@ -34,12 +34,6 @@ ipi_32beads_cpu[f"32_lammps"] = np.loadtxt(
 # %%
 
 
-# Sample data - replace with your actual data points
-n = np.array([1, 2, 4, 8])  # Number of CPUs/GPUs
-time_lammps_cpu = np.array([80, 40, 20, 10])  # Time per step for LAMMPS on CPU
-time_lammps_gpu = np.array([70, 35, 18, 9])  # Time per step for LAMMPS on GPU
-time_ipi_cpu = np.array([100, 50, 25, 12.5])  # Time per step for i-PI on CPU
-time_ipi_gpu = np.array([90, 45, 23, 11.5])  # Time per step for i-PI on GPU
 
 # Create a figure with two subplots
 fig, (ax1, ax2) = plt.subplots(2, 1, sharex=True, tight_layout=True, figsize=(10, 12))
@@ -50,7 +44,7 @@ plt.rcParams["font.size"] = 22
 # Plot for CPUs on the first axis
 ax1.loglog(
     lammps_cpu[:, 0],
-    ipi_cpu[:, 1],
+    lammps_cpu[:, 1],
     ls="--",
     marker="o",
     color="red",
@@ -58,17 +52,17 @@ ax1.loglog(
 )
 ax1.loglog(
     lammps_gpu[:, 0],
-    ipi_gpu[:, 1],
+    lammps_gpu[:, 1],
     ls="--",
     marker="o",
     color="blue",
     label="LAMMPS, GPU",
 )
 ax1.loglog(
-    ipi_cpu[:, 0], lammps_cpu[:, 1], ls="-", marker="o", color="red", label="i-PI, CPU"
+    ipi_cpu[:, 0], ipi_cpu[:, 1], ls="-", marker="o", color="red", label="i-PI, CPU"
 )
 ax1.loglog(
-    ipi_gpu[:, 0], lammps_gpu[:, 1], ls="-", marker="o", color="blue", label="i-PI, GPU"
+    ipi_gpu[:, 0], ipi_gpu[:, 1], ls="-", marker="o", color="blue", label="i-PI, GPU"
 )
 
 x = np.arange(1, 500)
