@@ -3,24 +3,6 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 
-# Format
-plt.rc("font", **{"family": "sans-serif", "sans-serif": ["Arial"]})
-tick_major_size = 10
-tick_minor_size = 7
-labelsize = 20
-fontsize = 18
-legend_fontsize = 15
-
-plt.rcParams["font.size"] = fontsize
-plt.rc("axes", linewidth=2, labelpad=10)
-#plt.rcParams["xtick.direction"] = "in"
-plt.rcParams["ytick.direction"] = "in"
-plt.rc("xtick.major", size=tick_major_size, width=2)
-plt.rc("xtick.minor", size=tick_minor_size, width=2)
-plt.rc("ytick.major", size=tick_major_size, width=2)
-plt.rc("ytick.minor", size=tick_minor_size, width=2)
-
-
 def one_n(x, offset=0):
     return (1.0 / x) * offset
 
