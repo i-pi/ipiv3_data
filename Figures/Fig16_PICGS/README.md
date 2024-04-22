@@ -1,1 +1,1 @@
-Data and scripts to generate figures related to PICG simulations section in the manuscript.
+Data and scripts to generate figures related to PICG simulations section in the manuscript. `experimental-data` contains experimental spectra, `figures` contains a python script to make the figure for the paper, and `water` contains the simulated spectra. 
