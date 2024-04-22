@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-import elphmod
+#import elphmod
 import numpy as np
 import matplotlib.pyplot as plt
 plt.style.use('tableau-colorblind10')
@@ -341,7 +341,7 @@ for ii,(SRT,panel) in enumerate(zip(SRT_list,panel_label_list)):
     Draw Brillouin zone
     """""""""""""""""""""""""""""""""""""""
 
-    outline = elphmod.bravais.BZ() 
+#    outline = elphmod.bravais.BZ() 
     outline = np.array(outline) / (a / nk)
     outline = list(outline)
 
