@@ -88,26 +88,27 @@ system_size_interpolation = numpy.linspace(1, 10**6, 1000)
 code_version = ['3.0', '2.6.1']
 
 # plot in each panel the total, python and communication overheads. Include both versions of the code in each panel.
+axs[0].plot(system_size_interpolation, [timings_LAMMPS_NVE(int(N)) for N in system_size_interpolation], color='black', linestyle='--',label='LAMMPS')
 
 for version_index, version in enumerate(code_version):
 
     # plot the total overhead
-    axs[0].set_title('Python overhead', fontsize=10)
-    axs[0].scatter(system_size, [ipi_overhead_python(int(N), version) for N in system_size], label='v' + version, color=color_palette[version_index], marker='o')
-    axs[0].plot(system_size_interpolation, [ipi_overhead_python(int(N), version) for N in system_size_interpolation], color=color_palette[version_index], linestyle='--')
+    axs[0].set_title('Timing NVE', fontsize=10)
+    axs[0].scatter(system_size, [timings_socket_UNIX_NVE(int(N), version) for N in system_size], label='v' + version, color=color_palette[version_index], marker='o')
+    axs[0].plot(system_size_interpolation, [timings_socket_UNIX_NVE(int(N), version) for N in system_size_interpolation], color=color_palette[version_index], linestyle='--')
+
+    # plot the total overhead
+    axs[1].set_title('Python overhead', fontsize=10)
+    axs[1].scatter(system_size, [ipi_overhead_python(int(N), version) for N in system_size], label='v' + version, color=color_palette[version_index], marker='o')
+    axs[1].plot(system_size_interpolation, [ipi_overhead_python(int(N), version) for N in system_size_interpolation], color=color_palette[version_index], linestyle='--')
 
     # plot the python overhead
-    axs[1].set_title('Communication overhead', fontsize=10)
-    axs[1].scatter(system_size, [ipi_overhead_communication(int(N), version) for N in system_size], color=color_palette[version_index], marker='o')
-    axs[1].plot(system_size_interpolation, [ipi_overhead_communication(int(N), version) for N in system_size_interpolation], color=color_palette[version_index], linestyle='--')
+    axs[2].set_title('Communication overhead', fontsize=10)
+    axs[2].scatter(system_size, [ipi_overhead_communication(int(N), version) for N in system_size], color=color_palette[version_index], marker='o')
+    axs[2].plot(system_size_interpolation, [ipi_overhead_communication(int(N), version) for N in system_size_interpolation], color=color_palette[version_index], linestyle='--')
 
-    # plot the communication overhead
-    axs[2].set_title('Total overhead', fontsize=10)
-    axs[2].scatter(system_size, [ipi_overhead(int(N), version) for N in system_size], color=color_palette[version_index], marker='o')
-    axs[2].plot(system_size_interpolation, [ipi_overhead(int(N), version) for N in system_size_interpolation], color=color_palette[version_index], linestyle='--')
-
-axs[0].set_xscale('log')
-axs[0].set_yscale('log')
+axs[1].set_xscale('log')
+axs[1].set_yscale('log')
 
 
 for i in range(3):
@@ -116,13 +117,16 @@ for i in range(3):
 
 
 
-axs[0].set_ylabel('i-PI overhead [ms/step]')
+axs[0].set_ylabel('time per step [ms/step]')
 axs[0].legend(loc='upper left')
 
 # add panels "a", "b", "c" to top left of every pabel in bold font
 
 for ax, label in zip(axs, ['a', 'b', 'c']):
     ax.text(-0.05, 1.05, label, transform=ax.transAxes, fontsize=10, fontweight='bold', va='top', ha='right')
+
+
+axs[0].set_ylim(0.06,90)
 
 plt.tight_layout()
 plt.savefig('overhead_breakdown.pdf', dpi=300)
