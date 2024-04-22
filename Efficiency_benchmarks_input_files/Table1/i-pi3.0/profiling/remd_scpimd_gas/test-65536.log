@@ -1,0 +1,354 @@
+
+ ____       ____       ____       ____
+/    \     /    \     /    \     /    \
+|  #################################  |
+\__#_/     \____/     \____/     \_#__/
+   #    _        _______  _____    #
+   #   (_)      |_   __ \|_   _|   #      -*-     v 2.6.3  -*-
+   #   __  ______ | |__) | | |     #
+   Y  [  ||______||  ___/  | |     #      A Universal Force Engine
+  0 0  | |       _| |_    _| |_    #
+   #  [___]     |_____|  |_____|   #
+ __#_       ____       ____       _#__
+/  # \     /    \     /    \     / #  \
+|  #################################  |
+\____/     \____/     \____/     \____/
+
+    
+ # @simulation: Fetchingffsocket
+ # @simulation: Fetchingfflj
+Generating system from template: 
+ 
+  <system prefix='REF00'>
+    <initialize nbeads='4'>
+      <file mode='xyz'>test-65536.xyz</file>
+      <cell>[10.0, 0, 0, 0, 10.0, 0, 0, 0, 10.0]</cell>
+      <masses mode='manual'>[1.0]</masses>
+      <velocities mode='thermal' units='kelvin'>1</velocities>
+    </initialize>
+    <forces>
+      <force forcefield='dummy.1' weight='1.0'>
+      </force>
+      <force forcefield='dummy.2' nbeads='2' weight='1.0'>
+      </force>
+    </forces>
+    <motion mode='dynamics'>
+      <dynamics mode='scnpt'>
+        <barostat mode='sc-isotropic'>
+          <tau>10</tau>
+          <thermostat mode='langevin'>
+            <tau>1</tau>
+          </thermostat>
+          <h0>[ 10, 0, 0, 0, 10, 0, 0, 0, 10 ]</h0>
+        </barostat>
+        <thermostat mode='langevin'>
+          <tau>1</tau>
+        </thermostat>
+        <timestep>0.01</timestep>
+      </dynamics>
+    </motion>
+    <ensemble>
+      <temperature>1</temperature>
+      <pressure>1</pressure>
+      <bias>
+        <force forcefield='dummy.2'>
+        </force>
+      </bias>
+      <bias_weights>[0.0]</bias_weights>
+    </ensemble>
+  </system>
+ # Initializing system object 
+Generating system from template: 
+ 
+  <system prefix='REF01'>
+    <initialize nbeads='4'>
+      <file mode='xyz'>test-65536.xyz</file>
+      <cell>[10.0, 0, 0, 0, 10.0, 0, 0, 0, 10.0]</cell>
+      <masses mode='manual'>[1.0]</masses>
+      <velocities mode='thermal' units='kelvin'>2</velocities>
+    </initialize>
+    <forces>
+      <force forcefield='dummy.1' weight='1.0'>
+      </force>
+      <force forcefield='dummy.2' nbeads='2' weight='1.0'>
+      </force>
+    </forces>
+    <motion mode='dynamics'>
+      <dynamics mode='scnpt'>
+        <barostat mode='sc-isotropic'>
+          <tau>10</tau>
+          <thermostat mode='langevin'>
+            <tau>1</tau>
+          </thermostat>
+          <h0>[ 10, 0, 0, 0, 10, 0, 0, 0, 10 ]</h0>
+        </barostat>
+        <thermostat mode='langevin'>
+          <tau>1</tau>
+        </thermostat>
+        <timestep>0.01</timestep>
+      </dynamics>
+    </motion>
+    <ensemble>
+      <temperature>2</temperature>
+      <pressure>1</pressure>
+      <bias>
+        <force forcefield='dummy.2'>
+        </force>
+      </bias>
+      <bias_weights>[0.0]</bias_weights>
+    </ensemble>
+  </system>
+ # Initializing system object 
+Generating system from template: 
+ 
+  <system prefix='REF02'>
+    <initialize nbeads='4'>
+      <file mode='xyz'>test-65536.xyz</file>
+      <cell>[10.0, 0, 0, 0, 10.0, 0, 0, 0, 10.0]</cell>
+      <masses mode='manual'>[1.0]</masses>
+      <velocities mode='thermal' units='kelvin'>5</velocities>
+    </initialize>
+    <forces>
+      <force forcefield='dummy.1' weight='1.0'>
+      </force>
+      <force forcefield='dummy.2' nbeads='2' weight='1.0'>
+      </force>
+    </forces>
+    <motion mode='dynamics'>
+      <dynamics mode='scnpt'>
+        <barostat mode='sc-isotropic'>
+          <tau>10</tau>
+          <thermostat mode='langevin'>
+            <tau>1</tau>
+          </thermostat>
+          <h0>[ 10, 0, 0, 0, 10, 0, 0, 0, 10 ]</h0>
+        </barostat>
+        <thermostat mode='langevin'>
+          <tau>1</tau>
+        </thermostat>
+        <timestep>0.01</timestep>
+      </dynamics>
+    </motion>
+    <ensemble>
+      <temperature>5</temperature>
+      <pressure>1</pressure>
+      <bias>
+        <force forcefield='dummy.2'>
+        </force>
+      </bias>
+      <bias_weights>[0.0]</bias_weights>
+    </ensemble>
+  </system>
+ # Initializing system object 
+Generating system from template: 
+ 
+  <system prefix='REF10'>
+    <initialize nbeads='4'>
+      <file mode='xyz'>test-65536.xyz</file>
+      <cell>[10.0, 0, 0, 0, 10.0, 0, 0, 0, 10.0]</cell>
+      <masses mode='manual'>[1.0]</masses>
+      <velocities mode='thermal' units='kelvin'>1</velocities>
+    </initialize>
+    <forces>
+      <force forcefield='dummy.1' weight='1.0'>
+      </force>
+      <force forcefield='dummy.2' nbeads='2' weight='1.0'>
+      </force>
+    </forces>
+    <motion mode='dynamics'>
+      <dynamics mode='scnpt'>
+        <barostat mode='sc-isotropic'>
+          <tau>10</tau>
+          <thermostat mode='langevin'>
+            <tau>1</tau>
+          </thermostat>
+          <h0>[ 10, 0, 0, 0, 10, 0, 0, 0, 10 ]</h0>
+        </barostat>
+        <thermostat mode='langevin'>
+          <tau>1</tau>
+        </thermostat>
+        <timestep>0.01</timestep>
+      </dynamics>
+    </motion>
+    <ensemble>
+      <temperature>1</temperature>
+      <pressure>10</pressure>
+      <bias>
+        <force forcefield='dummy.2'>
+        </force>
+      </bias>
+      <bias_weights>[0.0]</bias_weights>
+    </ensemble>
+  </system>
+ # Initializing system object 
+Generating system from template: 
+ 
+  <system prefix='REF11'>
+    <initialize nbeads='4'>
+      <file mode='xyz'>test-65536.xyz</file>
+      <cell>[10.0, 0, 0, 0, 10.0, 0, 0, 0, 10.0]</cell>
+      <masses mode='manual'>[1.0]</masses>
+      <velocities mode='thermal' units='kelvin'>2</velocities>
+    </initialize>
+    <forces>
+      <force forcefield='dummy.1' weight='1.0'>
+      </force>
+      <force forcefield='dummy.2' nbeads='2' weight='1.0'>
+      </force>
+    </forces>
+    <motion mode='dynamics'>
+      <dynamics mode='scnpt'>
+        <barostat mode='sc-isotropic'>
+          <tau>10</tau>
+          <thermostat mode='langevin'>
+            <tau>1</tau>
+          </thermostat>
+          <h0>[ 10, 0, 0, 0, 10, 0, 0, 0, 10 ]</h0>
+        </barostat>
+        <thermostat mode='langevin'>
+          <tau>1</tau>
+        </thermostat>
+        <timestep>0.01</timestep>
+      </dynamics>
+    </motion>
+    <ensemble>
+      <temperature>2</temperature>
+      <pressure>10</pressure>
+      <bias>
+        <force forcefield='dummy.2'>
+        </force>
+      </bias>
+      <bias_weights>[0.0]</bias_weights>
+    </ensemble>
+  </system>
+ # Initializing system object 
+Generating system from template: 
+ 
+  <system prefix='REF12'>
+    <initialize nbeads='4'>
+      <file mode='xyz'>test-65536.xyz</file>
+      <cell>[10.0, 0, 0, 0, 10.0, 0, 0, 0, 10.0]</cell>
+      <masses mode='manual'>[1.0]</masses>
+      <velocities mode='thermal' units='kelvin'>5</velocities>
+    </initialize>
+    <forces>
+      <force forcefield='dummy.1' weight='1.0'>
+      </force>
+      <force forcefield='dummy.2' nbeads='2' weight='1.0'>
+      </force>
+    </forces>
+    <motion mode='dynamics'>
+      <dynamics mode='scnpt'>
+        <barostat mode='sc-isotropic'>
+          <tau>10</tau>
+          <thermostat mode='langevin'>
+            <tau>1</tau>
+          </thermostat>
+          <h0>[ 10, 0, 0, 0, 10, 0, 0, 0, 10 ]</h0>
+        </barostat>
+        <thermostat mode='langevin'>
+          <tau>1</tau>
+        </thermostat>
+        <timestep>0.01</timestep>
+      </dynamics>
+    </motion>
+    <ensemble>
+      <temperature>5</temperature>
+      <pressure>10</pressure>
+      <bias>
+        <force forcefield='dummy.2'>
+        </force>
+      </bias>
+      <bias_weights>[0.0]</bias_weights>
+    </ensemble>
+  </system>
+ # Initializing system object 
+ # Initializing simulation object 
+ # Initializing from file test-65536.xyz. Dimension: length, units: automatic, cell_units: automatic
+ # Initialize is rescaling from     1 beads to     4 beads
+ # Initializing from file test-65536.xyz. Dimension: length, units: automatic, cell_units: automatic
+ # Initializing from file test-65536.xyz. Dimension: length, units: automatic, cell_units: automatic
+ # Initializing from file test-65536.xyz. Dimension: length, units: automatic, cell_units: automatic
+ # Resampling velocities at temperature 1.0 kelvin
+Import of PyFFTW unsuccessful, using NumPy library instead. 
+ !W! Install PyFFTW to avoid slow normal-modes integration
+ # Initializing from file test-65536.xyz. Dimension: length, units: automatic, cell_units: automatic
+ # Initialize is rescaling from     1 beads to     4 beads
+ # Initializing from file test-65536.xyz. Dimension: length, units: automatic, cell_units: automatic
+ # Initializing from file test-65536.xyz. Dimension: length, units: automatic, cell_units: automatic
+ # Initializing from file test-65536.xyz. Dimension: length, units: automatic, cell_units: automatic
+ # Resampling velocities at temperature 2.0 kelvin
+Import of PyFFTW unsuccessful, using NumPy library instead. 
+ !W! Install PyFFTW to avoid slow normal-modes integration
+ # Initializing from file test-65536.xyz. Dimension: length, units: automatic, cell_units: automatic
+ # Initialize is rescaling from     1 beads to     4 beads
+ # Initializing from file test-65536.xyz. Dimension: length, units: automatic, cell_units: automatic
+ # Initializing from file test-65536.xyz. Dimension: length, units: automatic, cell_units: automatic
+ # Initializing from file test-65536.xyz. Dimension: length, units: automatic, cell_units: automatic
+ # Resampling velocities at temperature 5.0 kelvin
+Import of PyFFTW unsuccessful, using NumPy library instead. 
+ !W! Install PyFFTW to avoid slow normal-modes integration
+ # Initializing from file test-65536.xyz. Dimension: length, units: automatic, cell_units: automatic
+ # Initialize is rescaling from     1 beads to     4 beads
+ # Initializing from file test-65536.xyz. Dimension: length, units: automatic, cell_units: automatic
+ # Initializing from file test-65536.xyz. Dimension: length, units: automatic, cell_units: automatic
+ # Initializing from file test-65536.xyz. Dimension: length, units: automatic, cell_units: automatic
+ # Resampling velocities at temperature 1.0 kelvin
+Import of PyFFTW unsuccessful, using NumPy library instead. 
+ !W! Install PyFFTW to avoid slow normal-modes integration
+ # Initializing from file test-65536.xyz. Dimension: length, units: automatic, cell_units: automatic
+ # Initialize is rescaling from     1 beads to     4 beads
+ # Initializing from file test-65536.xyz. Dimension: length, units: automatic, cell_units: automatic
+ # Initializing from file test-65536.xyz. Dimension: length, units: automatic, cell_units: automatic
+ # Initializing from file test-65536.xyz. Dimension: length, units: automatic, cell_units: automatic
+ # Resampling velocities at temperature 2.0 kelvin
+Import of PyFFTW unsuccessful, using NumPy library instead. 
+ !W! Install PyFFTW to avoid slow normal-modes integration
+ # Initializing from file test-65536.xyz. Dimension: length, units: automatic, cell_units: automatic
+ # Initialize is rescaling from     1 beads to     4 beads
+ # Initializing from file test-65536.xyz. Dimension: length, units: automatic, cell_units: automatic
+ # Initializing from file test-65536.xyz. Dimension: length, units: automatic, cell_units: automatic
+ # Initializing from file test-65536.xyz. Dimension: length, units: automatic, cell_units: automatic
+ # Resampling velocities at temperature 5.0 kelvin
+Import of PyFFTW unsuccessful, using NumPy library instead. 
+ !W! Install PyFFTW to avoid slow normal-modes integration
+ !W! Multiple systems will evolve independently in a 'md' simulation.
+ # Binding the forces 
+Import of PyFFTW unsuccessful, using NumPy library instead. 
+ !W! Install PyFFTW to avoid slow normal-modes integration
+ # Binding the forces 
+Import of PyFFTW unsuccessful, using NumPy library instead. 
+ !W! Install PyFFTW to avoid slow normal-modes integration
+ # Binding the forces 
+Import of PyFFTW unsuccessful, using NumPy library instead. 
+ !W! Install PyFFTW to avoid slow normal-modes integration
+ # Binding the forces 
+Import of PyFFTW unsuccessful, using NumPy library instead. 
+ !W! Install PyFFTW to avoid slow normal-modes integration
+ # Binding the forces 
+Import of PyFFTW unsuccessful, using NumPy library instead. 
+ !W! Install PyFFTW to avoid slow normal-modes integration
+ # Binding the forces 
+Import of PyFFTW unsuccessful, using NumPy library instead. 
+ !W! Install PyFFTW to avoid slow normal-modes integration
+Traceback (most recent call last):
+  File "/home/tisi/ipi-paper-test/i-pi_cosmo_last_commit/ipi/interfaces/sockets.py", line 651, in open
+    self.server.bind("/tmp/ipi_" + self.address)
+OSError: [Errno 98] Address already in use
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/tisi/ipi-paper-test/i-pi_cosmo_last_commit/bin//i-pi", line 112, in <module>
+    main(args[0], options)
+  File "/home/tisi/ipi-paper-test/i-pi_cosmo_last_commit/bin//i-pi", line 61, in main
+    simulation = Simulation.load_from_xml(fn_input, request_banner=True, custom_verbosity=options.verbosity)
+  File "/home/tisi/ipi-paper-test/i-pi_cosmo_last_commit/ipi/engine/simulation.py", line 97, in load_from_xml
+    simulation.bind(read_only)
+  File "/home/tisi/ipi-paper-test/i-pi_cosmo_last_commit/ipi/engine/simulation.py", line 204, in bind
+    f.start()
+  File "/home/tisi/ipi-paper-test/i-pi_cosmo_last_commit/ipi/engine/forcefields.py", line 353, in start
+    self.socket.open()
+  File "/home/tisi/ipi-paper-test/i-pi_cosmo_last_commit/ipi/interfaces/sockets.py", line 656, in open
+    raise RuntimeError(
+RuntimeError: Error opening unix socket. Check if a file /tmp/ipi_gas exists, and remove it if unused.

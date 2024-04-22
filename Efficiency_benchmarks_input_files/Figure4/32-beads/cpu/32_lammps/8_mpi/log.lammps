@@ -1,0 +1,110 @@
+LAMMPS (2 Aug 2023 - Update 2)
+  using 1 OpenMP thread(s) per MPI task
+Loaded 1 plugins from /home/tisi/ipi-paper-test/venv-cpu/lib64/python3.9/site-packages/deepmd/lib
+Loaded 1 plugins from /home/tisi/ipi-paper-test/venv-cpu/lib64/python3.9/site-packages/deepmd/lib
+# file
+units		metal
+atom_style	atomic
+
+read_data	../init_lmp.data
+Reading data file ...
+  orthogonal box = (0 0 0) to (51.05457 51.05457 51.05457)
+  2 by 2 by 2 MPI processor grid
+  reading atoms ...
+  12288 atoms
+  read_data CPU = 0.027 seconds
+
+pair_style deepmd ../frozen_model.pb
+Summary of lammps deepmd module ...
+  >>> Info of deepmd-kit:
+  installed to:       /usr/local
+  source:             v2.2.9
+  source branch:      HEAD
+  source commit:      be437483
+  source commit at:   2024-02-04 13:44:12 +0800
+  support model ver.: 1.1 
+  build variant:      cuda
+  build with tf inc:  /tmp/pip-build-env-lkf22wl1/normal/lib/python3.11/site-packages/tensorflow/include/;/tmp/pip-build-env-lkf22wl1/normal/lib/python3.11/site-packages/tensorflow/include/
+  build with tf lib:  /tmp/pip-build-env-lkf22wl1/normal/lib/python3.11/site-packages/tensorflow/libtensorflow_cc.so.2
+  set tf intra_op_parallelism_threads: 1
+  set tf inter_op_parallelism_threads: 1
+  >>> Info of lammps module:
+  use deepmd-kit at:  /usr/local
+  source:             v2.2.9
+  source branch:      HEAD
+  source commit:      be437483
+  source commit at:   2024-02-04 13:44:12 +0800
+  build float prec:   double
+  build with tf inc:  /tmp/pip-build-env-lkf22wl1/normal/lib/python3.11/site-packages/tensorflow/include/;/tmp/pip-build-env-lkf22wl1/normal/lib/python3.11/site-packages/tensorflow/include/
+  build with tf lib:  /tmp/pip-build-env-lkf22wl1/normal/lib/python3.11/site-packages/tensorflow/libtensorflow_cc.so.2
+pair_coeff      * * O H
+
+neighbor	0.1 bin
+timestep	0.002
+
+thermo_style custom step time temp pe etotal press vol pxx pyy pzz pxy pxz pyz
+thermo		100000000
+fix 1 all ipi jst149 31415
+
+run		10000000
+
+CITE-CITE-CITE-CITE-CITE-CITE-CITE-CITE-CITE-CITE-CITE-CITE-CITE
+
+Your simulation uses code contributions which should be cited:
+
+- USER-DEEPMD package:
+
+@article{Wang_ComputPhysCommun_2018_v228_p178,
+  author = {Wang, Han and Zhang, Linfeng and Han, Jiequn and E, Weinan},
+  doi = {10.1016/j.cpc.2018.03.016},
+  url = {https://doi.org/10.1016/j.cpc.2018.03.016},
+  year = 2018,
+  month = {jul},
+  publisher = {Elsevier {BV}},
+  volume = 228,
+  journal = {Comput. Phys. Commun.},
+  title = {{DeePMD-kit: A deep learning package for many-body potential energy representation and molecular dynamics}},
+  pages = {178--184}
+}
+@misc{Zeng_JChemPhys_2023_v159_p054801,
+  title  = {{DeePMD-kit v2: A software package for deep potential models}},
+  author =   {Jinzhe Zeng and Duo Zhang and Denghui Lu and Pinghui Mo and Zeyu Li
+         and Yixiao Chen and Mari{\'a}n Rynik and Li'ang Huang and Ziyao Li and 
+         Shaochen Shi and Yingze Wang and Haotian Ye and Ping Tuo and Jiabin
+         Yang and Ye Ding and Yifan Li and Davide Tisi and Qiyu Zeng and Han 
+         Bao and Yu Xia and Jiameng Huang and Koki Muraoka and Yibo Wang and 
+         Junhan Chang and Fengbo Yuan and Sigbj{\o}rn L{\o}land Bore and Chun
+         Cai and Yinnian Lin and Bo Wang and Jiayan Xu and Jia-Xin Zhu and 
+         Chenxing Luo and Yuzhi Zhang and Rhys E A Goodall and Wenshuo Liang
+         and Anurag Kumar Singh and Sikai Yao and Jingchao Zhang and Renata
+         Wentzcovitch and Jiequn Han and Jie Liu and Weile Jia and Darrin M
+         York and Weinan E and Roberto Car and Linfeng Zhang and Han Wang},
+  journal =  {J. Chem. Phys.},
+  volume =   159,
+  issue =    5,  
+  year =    2023,
+  pages  =   054801,
+  doi =      {10.1063/5.0155600},
+}
+
+CITE-CITE-CITE-CITE-CITE-CITE-CITE-CITE-CITE-CITE-CITE-CITE-CITE
+
+WARNING: No fixes with time integration, atoms won't move (src/src/verlet.cpp:60)
+Generated 0 of 1 mixed pair_coeff terms from geometric mixing rule
+Neighbor list info ...
+  update: every = 1 steps, delay = 0 steps, check = yes
+  max neighbors/atom: 2000, page size: 100000
+  master list distance cutoff = 6.1
+  ghost atom cutoff = 6.1
+  binsize = 3.05, bins = 17 17 17
+  1 neighbor lists, perpetual/occasional/extra = 1 0 0
+  (1) pair deepmd, perpetual
+      attributes: full, newton on
+      pair build: full/bin/atomonly
+      stencil: full/bin/3d
+      bin: standard
+Per MPI rank memory allocation (min/avg/max) = 3.565 | 3.574 | 3.582 Mbytes
+   Step          Time           Temp          PotEng         TotEng         Press          Volume          Pxx            Pyy            Pzz            Pxy            Pxz            Pyz      
+         0   0              0             -1917578.7     -1917578.7      36197.507      133077.27      36365.475      36365.475      35861.571      0.00010368371 -0.0010705934  -0.0012015717 
+ERROR on proc 0: Got EXIT message from i-PI. Now leaving! (src/src/MISC/fix_ipi.cpp:294)
+Last command: run		10000000

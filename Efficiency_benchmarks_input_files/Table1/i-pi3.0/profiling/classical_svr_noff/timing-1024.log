@@ -1,0 +1,6 @@
+Error opening UNIX socket: path unavailable, or already existing: No such file or directory
+Error opening INET socket: wrong port or server unreachable: Connection refused
+
+real	0m2.350s
+user	0m1.860s
+sys	0m0.082s

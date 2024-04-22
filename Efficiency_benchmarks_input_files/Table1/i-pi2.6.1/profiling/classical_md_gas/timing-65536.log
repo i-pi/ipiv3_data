@@ -1,0 +1,6 @@
+Error opening INET socket: wrong port or server unreachable: Connection refused
+STOP ENDED
+
+real	3m14.954s
+user	1m52.921s
+sys	0m7.569s

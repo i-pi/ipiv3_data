@@ -1,0 +1,17 @@
+# file
+units		metal
+atom_style	atomic
+
+read_data	../init_lmp.data
+
+pair_style deepmd ../frozen_model.pb
+pair_coeff      * * O H
+
+neighbor	0.1 bin
+timestep	0.002
+
+thermo_style custom step time temp pe etotal press vol pxx pyy pzz pxy pxz pyz
+thermo		100000000
+fix 1 all ipi driver 31415 unix
+
+run		10000000

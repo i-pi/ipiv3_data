@@ -1,0 +1,135 @@
+
+ ____       ____       ____       ____
+/    \     /    \     /    \     /    \
+|  #################################  |
+\__#_/     \____/     \____/     \_#__/
+   #    _        _______  _____    #
+   #   (_)      |_   __ \|_   _|   #      -*-     v 2.6.0  -*-
+   #   __  ______ | |__) | | |     #
+   Y  [  ||______||  ___/  | |     #      A Universal Force Engine
+  0 0  | |       _| |_    _| |_    #
+   #  [___]     |_____|  |_____|   #
+ __#_       ____       ____       _#__
+/  # \     /    \     /    \     / #  \
+|  #################################  |
+\____/     \____/     \____/     \____/
+
+    
+ # @simulation: Fetchingfflj
+ # Initializing system object 
+ # Initializing simulation object 
+ # Initializing from file test-65536.xyz. Dimension: length, units: automatic, cell_units: automatic
+ # Initializing from file test-65536.xyz. Dimension: length, units: automatic, cell_units: automatic
+ # Initializing from file test-65536.xyz. Dimension: length, units: automatic, cell_units: automatic
+ # Initializing from file test-65536.xyz. Dimension: length, units: automatic, cell_units: automatic
+ !W! Overwriting previous atomic masses
+ # Resampling velocities at temperature 1.0 automatic
+ # Binding the forces 
+Backup performed: simulation.pos_0.xyz -> #simulation.pos_0.xyz#2#
+Backup performed: simulation.out -> #simulation.out#2#
+ # i-PI loaded input file:  test-65536.xml
+ # Average timings at MD step       0. t/step: 5.91993e-03
+ # Average timings at MD step     100. t/step: 4.93600e-03
+ # Average timings at MD step     200. t/step: 4.98373e-03
+ # Average timings at MD step     300. t/step: 4.92985e-03
+ # Average timings at MD step     400. t/step: 4.93049e-03
+ # Average timings at MD step     500. t/step: 4.92953e-03
+ # Average timings at MD step     600. t/step: 4.92038e-03
+ # Average timings at MD step     700. t/step: 4.91994e-03
+ # Average timings at MD step     800. t/step: 4.91906e-03
+ # Average timings at MD step     900. t/step: 4.92329e-03
+ # Average timings at MD step    1000. t/step: 6.37511e-03
+ # Average timings at MD step    1100. t/step: 4.92336e-03
+ # Average timings at MD step    1200. t/step: 4.91084e-03
+ # Average timings at MD step    1300. t/step: 4.91712e-03
+ # Average timings at MD step    1400. t/step: 4.91458e-03
+ # Average timings at MD step    1500. t/step: 4.90968e-03
+ # Average timings at MD step    1600. t/step: 4.95301e-03
+ # Average timings at MD step    1700. t/step: 4.91037e-03
+ # Average timings at MD step    1800. t/step: 4.90901e-03
+ # Average timings at MD step    1900. t/step: 4.91344e-03
+ # Average timings at MD step    2000. t/step: 6.23240e-03
+ # Average timings at MD step    2100. t/step: 4.90331e-03
+ # Average timings at MD step    2200. t/step: 4.94017e-03
+ # Average timings at MD step    2300. t/step: 4.90746e-03
+ # Average timings at MD step    2400. t/step: 4.90457e-03
+ # Average timings at MD step    2500. t/step: 4.90497e-03
+ # Average timings at MD step    2600. t/step: 4.90485e-03
+ # Average timings at MD step    2700. t/step: 4.90438e-03
+ # Average timings at MD step    2800. t/step: 4.90352e-03
+ # Average timings at MD step    2900. t/step: 4.90363e-03
+ # Average timings at MD step    3000. t/step: 6.22655e-03
+ # Average timings at MD step    3100. t/step: 4.94501e-03
+ # Average timings at MD step    3200. t/step: 4.89896e-03
+ # Average timings at MD step    3300. t/step: 4.89805e-03
+ # Average timings at MD step    3400. t/step: 4.89687e-03
+ # Average timings at MD step    3500. t/step: 4.89733e-03
+ # Average timings at MD step    3600. t/step: 4.89936e-03
+ # Average timings at MD step    3700. t/step: 4.89580e-03
+ # Average timings at MD step    3800. t/step: 4.89565e-03
+ # Average timings at MD step    3900. t/step: 4.89513e-03
+ # Average timings at MD step    4000. t/step: 6.21264e-03
+ # Average timings at MD step    4100. t/step: 4.89995e-03
+ # Average timings at MD step    4200. t/step: 4.93440e-03
+ # Average timings at MD step    4300. t/step: 4.89756e-03
+ # Average timings at MD step    4400. t/step: 4.89790e-03
+ # Average timings at MD step    4500. t/step: 4.89892e-03
+ # Average timings at MD step    4600. t/step: 4.89683e-03
+ # Average timings at MD step    4700. t/step: 4.89833e-03
+ # Average timings at MD step    4800. t/step: 4.89920e-03
+ # Average timings at MD step    4900. t/step: 4.93678e-03
+ # Average timings at MD step    5000. t/step: 6.23111e-03
+ # Average timings at MD step    5100. t/step: 4.91018e-03
+ # Average timings at MD step    5200. t/step: 4.90581e-03
+ # Average timings at MD step    5300. t/step: 4.90383e-03
+ # Average timings at MD step    5400. t/step: 4.90769e-03
+ # Average timings at MD step    5500. t/step: 4.90426e-03
+ # Average timings at MD step    5600. t/step: 4.90397e-03
+ # Average timings at MD step    5700. t/step: 4.94843e-03
+ # Average timings at MD step    5800. t/step: 4.91023e-03
+ # Average timings at MD step    5900. t/step: 4.91030e-03
+ # Average timings at MD step    6000. t/step: 6.21696e-03
+ # Average timings at MD step    6100. t/step: 4.90835e-03
+ # Average timings at MD step    6200. t/step: 4.90756e-03
+ # Average timings at MD step    6300. t/step: 4.90343e-03
+ # Average timings at MD step    6400. t/step: 4.90353e-03
+ # Average timings at MD step    6500. t/step: 4.90294e-03
+ # Average timings at MD step    6600. t/step: 4.90536e-03
+ # Average timings at MD step    6700. t/step: 4.90196e-03
+ # Average timings at MD step    6800. t/step: 4.90495e-03
+ # Average timings at MD step    6900. t/step: 4.90231e-03
+ # Average timings at MD step    7000. t/step: 6.21082e-03
+ # Average timings at MD step    7100. t/step: 4.91503e-03
+ # Average timings at MD step    7200. t/step: 4.91366e-03
+ # Average timings at MD step    7300. t/step: 4.91229e-03
+ # Average timings at MD step    7400. t/step: 4.91076e-03
+ # Average timings at MD step    7500. t/step: 4.91408e-03
+ # Average timings at MD step    7600. t/step: 4.95587e-03
+ # Average timings at MD step    7700. t/step: 4.91863e-03
+ # Average timings at MD step    7800. t/step: 4.91708e-03
+ # Average timings at MD step    7900. t/step: 4.92832e-03
+ # Average timings at MD step    8000. t/step: 6.24190e-03
+ # Average timings at MD step    8100. t/step: 4.90978e-03
+ # Average timings at MD step    8200. t/step: 4.90525e-03
+ # Average timings at MD step    8300. t/step: 4.90468e-03
+ # Average timings at MD step    8400. t/step: 4.90537e-03
+ # Average timings at MD step    8500. t/step: 4.90481e-03
+ # Average timings at MD step    8600. t/step: 4.90240e-03
+ # Average timings at MD step    8700. t/step: 4.90486e-03
+ # Average timings at MD step    8800. t/step: 4.90511e-03
+ # Average timings at MD step    8900. t/step: 4.90586e-03
+ # Average timings at MD step    9000. t/step: 6.21992e-03
+ # Average timings at MD step    9100. t/step: 4.90524e-03
+ # Average timings at MD step    9200. t/step: 4.90065e-03
+ # Average timings at MD step    9300. t/step: 4.89688e-03
+ # Average timings at MD step    9400. t/step: 4.89693e-03
+ # Average timings at MD step    9500. t/step: 4.89774e-03
+ # Average timings at MD step    9600. t/step: 4.89648e-03
+ # Average timings at MD step    9700. t/step: 4.89801e-03
+ # Average timings at MD step    9800. t/step: 4.89675e-03
+ # Average timings at MD step    9900. t/step: 4.89647e-03
+SOFTEXIT CALLED FROM THREAD <_MainThread(MainThread, started 140357338207232)>  @ SIMULATION: Exiting cleanly.
+ !W! Soft exit has been requested with message: ' @ SIMULATION: Exiting cleanly.
+I-PI reports success. Restartable as is: NO.'. Cleaning up.
+SOFTEXIT: Saving the latest status at the end of the step
+Backup performed: RESTART -> #RESTART#2#

@@ -1,0 +1,45 @@
+
+ ____       ____       ____       ____
+/    \     /    \     /    \     /    \
+|  #################################  |
+\__#_/     \____/     \____/     \_#__/
+   #    _        _______  _____    #
+   #   (_)      |_   __ \|_   _|   #      -*-     v 2.6.3  -*-
+   #   __  ______ | |__) | | |     #
+   Y  [  ||______||  ___/  | |     #      A Universal Force Engine
+  0 0  | |       _| |_    _| |_    #
+   #  [___]     |_____|  |_____|   #
+ __#_       ____       ____       _#__
+/  # \     /    \     /    \     / #  \
+|  #################################  |
+\____/     \____/     \____/     \____/
+
+    
+ # @simulation: Fetchingfflj
+ # Initializing system object 
+ # Initializing simulation object 
+ # Initializing from file test-1024.xyz. Dimension: length, units: automatic, cell_units: automatic
+ # Initialize is rescaling from     1 beads to     2 beads
+ # Initializing from file test-1024.xyz. Dimension: length, units: automatic, cell_units: automatic
+ # Initializing from file test-1024.xyz. Dimension: length, units: automatic, cell_units: automatic
+ # Initializing from file test-1024.xyz. Dimension: length, units: automatic, cell_units: automatic
+ # Resampling velocities at temperature 1.0 automatic
+Import of PyFFTW unsuccessful, using NumPy library instead. 
+ !W! Install PyFFTW to avoid slow normal-modes integration
+ # Binding the forces 
+Import of PyFFTW unsuccessful, using NumPy library instead. 
+ !W! Install PyFFTW to avoid slow normal-modes integration
+Backup performed: simulation.pos_0.xyz -> #simulation.pos_0.xyz#0#
+Backup performed: simulation.pos_1.xyz -> #simulation.pos_1.xyz#0#
+Backup performed: simulation.out -> #simulation.out#0#
+ # i-PI loaded input file:  test-1024.xml
+ !W! Forcefield returned a zero stress tensor. NPT simulation will likely make no sense
+ # Average timings at MD step       0. t/step: 2.35391e-03
+ # Average timings at MD step    1000. t/step: 1.23215e-03
+ # Average timings at MD step    2000. t/step: 1.23002e-03
+ # Average timings at MD step    3000. t/step: 1.22532e-03
+SOFTEXIT CALLED FROM THREAD <_MainThread(MainThread, started 140226568943424)>  @ SIMULATION: Exiting cleanly.
+ !W! Soft exit has been requested with message: ' @ SIMULATION: Exiting cleanly.
+I-PI reports success. Restartable as is: NO.'. Cleaning up.
+SOFTEXIT: Saving the latest status at the end of the step
+Backup performed: RESTART -> #RESTART#0#
