@@ -28,10 +28,14 @@ def plot(x_label, y_label):
 
        # results
        for ptype in ['distinguishable', 'bosons']:
+           if ptype=='bosons':
+                 label='Bosons'
+           else:
+                 label='Distinguishable'
            x = np.loadtxt('data/%s_%s_x' % (num_bosons, ptype))
            y = np.loadtxt('data/%s_%s_y' % (num_bosons, ptype))
            err = np.loadtxt('data/%s_%s_err' % (num_bosons, ptype))
-           plt.errorbar(x, y / num_bosons, err / num_bosons, linestyle='None', marker='o', label='%s' % ptype)
+           plt.errorbar(x, y / num_bosons, err / num_bosons, linestyle='None', marker='o', label=label)
 
        # analytical baseline
        for is_distinguishable in [True, False]:

@@ -9,7 +9,22 @@ if not os.path.exists("images"):
     os.mkdir("images")
 
 
-fontsize = 20
+# Define format
+#plt.rc("font", **{"family": "sans-serif", "sans-serif": ["Arial"]})
+tick_major_size = 10
+tick_minor_size = 7
+labelsize = 20
+fontsize = 18
+legend_fontsize = 15
+
+plt.rcParams["font.size"] = fontsize
+plt.rc("axes", linewidth=2, labelpad=10)
+plt.rcParams["ytick.direction"] = "in"
+plt.rc("xtick.major", size=tick_major_size, width=2)
+plt.rc("xtick.minor", size=tick_minor_size, width=2)
+plt.rc("ytick.major", size=tick_major_size, width=2)
+plt.rc("ytick.minor", size=tick_minor_size, width=2)
+
 
 ################################
 # DATA
@@ -25,7 +40,8 @@ Etot *= au2eV
 
 ################################
 # PLOT
-fig,ax = plt.subplots(figsize=(10,5))
+fig,ax = plt.subplots(figsize=(6,5))
+#ax.set_aspect(0.8)
 
 # Set font sizes
 plt.rcParams.update({'font.size': fontsize})  # Increase font size for all text
@@ -78,13 +94,12 @@ ax2.set_ylim(-3,3)
 ax.set_ylim(-0.2,0.7)
 ax.set_xlim(0,500)
 
-ax.set_xlabel("time [fs]",fontsize=fontsize)
-ax.set_ylabel("energy [eV]",fontsize=fontsize)
-ax2.set_ylabel("E-field [eV/ang]",fontsize=fontsize)
+ax.set_xlabel("Time (fs)",fontsize=fontsize)
+ax.set_ylabel("Energy (eV)",fontsize=fontsize)
+ax2.set_ylabel("E-field (eV/ang)",fontsize=fontsize)
 ax.grid(linestyle="dashed",alpha=0.7)
 
-
-legend1 = ax.legend(facecolor='white', ncol=5,
+legend1 = ax.legend(facecolor='white', ncol=3,
                     framealpha=1, edgecolor="black", loc="lower left", fontsize=fontsize, title_fontsize=fontsize)
 
 legend2 = ax2.legend(facecolor='white', ncol=2, \

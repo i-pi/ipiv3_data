@@ -7,7 +7,7 @@ import matplotlib as mpl
 
 #Define axes
 x_label = 'N'
-y_label = 'time / step (s)'
+y_label = 'Time / Step (s)'
 
 # Define format
 plt.rc("font", **{"family": "sans-serif", "sans-serif": ["Arial"]})
@@ -89,12 +89,12 @@ def exe_type_plotter(ptype, x, y, err,iplot):
             marker_c = 'C0'
             line_c = 'C1'
             marker = "o"
-            label = "bosons"
+            label = "Bosons"
         elif ptype == 'distinguishable-bab':
             marker_c = 'C2'
             line_c = 'C3'
             marker = "s"
-            label = "distinguishable"
+            label = "Distinguishable"
         else:
             assert False, "Unknown plotter configuration for %s" % str(group_id)
 

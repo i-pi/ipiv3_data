@@ -30,13 +30,13 @@ def plot(x_label, y_label, temp_kelvin):
     #Load data
     bin_edges = np.loadtxt("data/%s_bosonic_hist_edges.txt" % str(temp_kelvin))
     density = np.loadtxt("data/%s_bosonic_hist_density.txt" % str(temp_kelvin))
-    plt.plot(bin_edges[:-1], density, "o", label="bosonic energy")
+    plt.plot(bin_edges[:-1], density, "o", label="Bosonic energy")
     bin_edges = np.loadtxt("data/%s_fermionic_hist_edges.txt" % str(temp_kelvin))
     density = np.loadtxt("data/%s_fermionic_hist_density.txt" % str(temp_kelvin))
 
 
     #Plot
-    plt.plot(bin_edges[:-1], density, "o", label="fermionic energy")
+    plt.plot(bin_edges[:-1], density, "o", label="Fermionic energy")
 
     plt.xlabel(x_label)
     plt.ylabel(y_label)
@@ -46,6 +46,8 @@ def plot(x_label, y_label, temp_kelvin):
         "ipi_noninteracting-fermions_energy_hist_3_%s.pdf" % str(temp_kelvin),
         bbox_inches="tight",
     )
+    text = r'$\beta \hbar \omega_0 = 0.75'
+    #axs.text(0.75, 0.81, text, transform=axs.transAxes)
     plt.show()
 
 

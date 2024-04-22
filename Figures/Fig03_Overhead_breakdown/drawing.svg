@@ -3,11 +3,11 @@
 
 <svg
    width="374.13324mm"
-   height="115.6761mm"
-   viewBox="0 0 374.13324 115.67611"
+   height="130.51939mm"
+   viewBox="0 0 374.13324 130.5194"
    version="1.1"
    id="svg1"
-   inkscape:version="1.3.2 (1:1.3.2+202311252150+091e20ef0f)"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
    sodipodi:docname="drawing.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -23,15 +23,21 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
-     inkscape:zoom="1.0476431"
-     inkscape:cx="614.71316"
-     inkscape:cy="316.90182"
-     inkscape:window-width="2490"
-     inkscape:window-height="1376"
-     inkscape:window-x="2630"
-     inkscape:window-y="143"
+     inkscape:zoom="0.52382155"
+     inkscape:cx="929.70593"
+     inkscape:cy="693.93861"
+     inkscape:window-width="1850"
+     inkscape:window-height="1016"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer1" />
+     inkscape:current-layer="layer1"
+     inkscape:pageshadow="0"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
   <defs
      id="defs1">
     <clipPath
@@ -609,11 +615,11 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(91.545834,-56.885415)">
+     transform="translate(91.545834,-42.042123)">
     <path
        id="path1"
-       d="M -91.545834,172.56152 H 282.58742 V 56.885415 H -91.545834 Z"
-       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.62582" />
+       d="M -91.545834,172.56152 H 282.58742 V 42.042123 H -91.545834 Z"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.66476" />
     <text
        id="text36-3"
        xml:space="preserve"
@@ -628,22 +634,22 @@
     <text
        id="text36-3-5"
        xml:space="preserve"
-       x="-30.44022"
-       y="63.21851"
-       style="font-size:4.23333px;stroke-width:0.352777"><tspan
-         style="font-variant:normal;font-weight:normal;font-size:6.35px;font-family:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352777"
-         x="-30.44022"
-         y="63.21851"
+       x="-37.872662"
+       y="62.160175"
+       style="font-size:9.17222px;stroke-width:0.352777"><tspan
+         style="font-variant:normal;font-weight:normal;font-size:9.17222px;font-family:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352777"
+         x="-37.872662"
+         y="62.160175"
          sodipodi:role="line"
          id="tspan37-5-8">Timing NVE</tspan></text>
     <text
        id="text36-3-5-0"
        xml:space="preserve"
-       x="-68.050385"
+       x="-70.69622"
        y="64.844765"
-       style="font-size:4.23333px;stroke-width:0.352777"><tspan
-         style="font-variant:normal;font-weight:normal;font-size:6.35px;font-family:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352777"
-         x="-68.050385"
+       style="font-size:9.17222px;stroke-width:0.352777"><tspan
+         style="font-variant:normal;font-weight:normal;font-size:9.17222px;font-family:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352777"
+         x="-70.69622"
          y="64.844765"
          sodipodi:role="line"
          id="tspan37-5-8-0">a)</tspan></text>
@@ -652,8 +658,8 @@
        xml:space="preserve"
        x="47.789993"
        y="64.844765"
-       style="font-size:4.23333px;stroke-width:0.352777"><tspan
-         style="font-variant:normal;font-weight:normal;font-size:6.35px;font-family:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352777"
+       style="font-size:9.17222px;stroke-width:0.352777"><tspan
+         style="font-variant:normal;font-weight:normal;font-size:9.17222px;font-family:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352777"
          x="47.789993"
          y="64.844765"
          sodipodi:role="line"
@@ -663,8 +669,8 @@
        xml:space="preserve"
        x="164.5222"
        y="64.844765"
-       style="font-size:4.23333px;stroke-width:0.352777"><tspan
-         style="font-variant:normal;font-weight:normal;font-size:6.35px;font-family:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352777"
+       style="font-size:9.17222px;stroke-width:0.352777"><tspan
+         style="font-variant:normal;font-weight:normal;font-size:9.17222px;font-family:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352777"
          x="164.5222"
          y="64.844765"
          sodipodi:role="line"
@@ -672,25 +678,30 @@
     <text
        id="text36-3-5-2"
        xml:space="preserve"
-       x="83.206657"
-       y="63.21851"
-       style="font-size:4.23333px;stroke-width:0.352777"><tspan
-         style="font-variant:normal;font-weight:normal;font-size:6.35px;font-family:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352777"
-         x="83.206657"
-         y="63.21851"
+       x="72.530319"
+       y="62.160175"
+       style="font-size:9.17222px;stroke-width:0.352777"><tspan
+         style="font-variant:normal;font-weight:normal;font-size:9.17222px;font-family:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352777"
+         x="72.530319"
+         y="62.160175"
          sodipodi:role="line"
          id="tspan37-5-8-5">Python overhead</tspan></text>
     <text
        id="text36-3-5-2-7"
        xml:space="preserve"
-       x="186.85571"
-       y="63.886688"
-       style="font-size:4.23333px;stroke-width:0.352777"><tspan
-         style="font-variant:normal;font-weight:normal;font-size:6.35px;font-family:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352777"
-         x="186.85571"
-         y="63.886688"
+       x="225.69672"
+       y="50.971588"
+       style="font-size:9.17222px;stroke-width:0.352777"><tspan
+         style="font-variant:normal;font-weight:normal;font-size:9.17222px;font-family:Arial;text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352777"
+         x="225.69672"
+         y="50.971588"
          sodipodi:role="line"
-         id="tspan37-5-8-5-5">Communication overhead</tspan></text>
+         id="tspan37-5-8-5-5">Communication</tspan><tspan
+         style="font-variant:normal;font-weight:normal;font-size:9.17222px;font-family:Arial;text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352777"
+         x="225.69672"
+         y="62.583515"
+         sodipodi:role="line"
+         id="tspan9561">overhead</tspan></text>
     <text
        id="text39-89"
        xml:space="preserve"
@@ -709,15 +720,15 @@
     <text
        id="text75-4"
        xml:space="preserve"
-       transform="rotate(-90)"
+       transform="rotate(-90,0.31571091,-0.55835238)"
        x="-140.60291"
        y="-79.590858"
-       style="font-size:4.23333px;stroke-width:0.352777"><tspan
-         style="font-variant:normal;font-weight:normal;font-size:6.35px;font-family:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352777"
-         x="-140.60291 -138.8376 -137.4279 -132.13834 -128.60774 -126.84244 -123.31184 -119.78124 -117.6667 -115.90141 -112.7264 -110.96111 -107.43051 -103.89991 -102.13461 -100.02004 -94.730484 -91.555504 -89.790199 -86.615204 -84.849899 -81.31929 -77.788689"
+       style="font-size:4.23333px;white-space:pre;inline-size:71.692;stroke-width:0.352777"><tspan
+         x="-140.60291"
          y="-79.590858"
-         sodipodi:role="line"
-         id="tspan75-0">time per step (ms/step)</tspan></text>
+         id="tspan68759"><tspan
+           style="font-size:6.35px;font-family:Arial"
+           id="tspan68757">Time per step (ms/step)</tspan></tspan></text>
     <g
        id="g259"
        transform="matrix(0.26458333,0,0,0.26458333,-112.10656,-39.265397)">
@@ -1173,7 +1184,7 @@
          id="tspan37-8">Number of atoms</tspan></text>
     <g
        id="g257"
-       transform="matrix(0.26458333,0,0,0.26458333,-119.91147,-40.48266)">
+       transform="matrix(0.26458333,0,0,0.26458333,-118.58855,-40.48266)">
       <path
          id="path2-15"
          d="M 660.85861,713.84031 H 1056.1046 V 409.51615 H 660.85861 Z"
@@ -1515,17 +1526,17 @@
     <text
        id="text36-04"
        xml:space="preserve"
-       x="198.49515"
+       x="201.14095"
        y="169.64499"
        style="font-size:4.23333px;stroke-width:0.352777"><tspan
          style="font-variant:normal;font-weight:normal;font-size:6.35px;font-family:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352777"
-         x="198.49515 203.07985 206.61044 211.89998 215.43057 218.96118 221.07574 222.84105 226.37164 228.13695 229.90224 233.43285 235.19814 238.72874 244.01831"
+         x="201.14095 205.72565 209.25624 214.54578 218.07637 221.60698 223.72154 225.48685 229.01744 230.78275 232.54803 236.07864 237.84393 241.37454 246.66411"
          y="169.64499"
          sodipodi:role="line"
          id="tspan37-1">Number of atoms</tspan></text>
     <g
        id="g260"
-       transform="matrix(0.26458333,0,0,0.26458333,597.08257,-39.320018)">
+       transform="matrix(0.26458333,0,0,0.26458333,599.72842,-39.320018)">
       <path
          id="path2-1"
          d="m -1611.616,709.44607 h 395.246 V 405.12191 h -395.246 z"
