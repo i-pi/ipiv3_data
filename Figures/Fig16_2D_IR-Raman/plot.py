@@ -8,8 +8,8 @@ from mpl_toolkits.axes_grid1 import ImageGrid
 import matplotlib.patches as mpatches
 
 #Define axes
-x_label = r'$\omega_1 / 2 \pi c\ [{\rm cm}^{-1}]$'
-y_label_left =  r'$\omega_2 / 2 \pi c\ [{\rm cm}^{-1}]$'
+x_label = r'$\omega_1$ (cm$^{-1})$'
+y_label_left =  r'$\omega_2$ (cm$^{-1})$'
 y_label_right = r'$R(\omega_1, \omega_2)$' # [10^6 \ \rm au]$'
 
 # Define format
@@ -19,7 +19,7 @@ tick_minor_size = 7
 labelsize = 20
 fontsize = 18
 legend_fontsize = 15
-figsize=(6,3)
+figsize=(6,5)
 
 plt.rcParams["font.size"] = fontsize
 plt.rc("axes", linewidth=2, labelpad=10)
@@ -64,7 +64,6 @@ def plot(x_label, y_label,mode):
     cbarticks2 = [-1.00, -0.50, 0.0, 0.50, 1.00]
     cbarticklabels2 = ['-1.00', '-0.50', '0.00', '0.50', '1.00']
 
-    fig, axs = plt.subplots(1, 2, figsize=(6.6, 3.0),  gridspec_kw={'width_ratios': [0.445, 0.555]})
 
     for j in range(1):
             vmin=-0.31
@@ -74,41 +73,44 @@ def plot(x_label, y_label,mode):
             levels = np.arange(vmin, vmax,0.2)
             norm_factor = 1/0.3
             for i in range(2):
+                fig, axs = plt.subplots(1,figsize=figsize,constrained_layout=True )#  gridspec_kw={'width_ratios': [0.445, 0.555]})
                 spec = [specMD, specTRPMD][i]
-                ax = axs[i]
+                ax = axs
                 cs = ax.contourf(spec * norm_factor,levels=levels, vmin=vmin, vmax=vmax,cmap=mpl.cm.bwr, extend='both', extent=(wmin,wmax,wmin,wmax))
                 cs2 = ax.contour(spec * norm_factor,levels=levels, vmin=vmin, vmax=vmax,colors='tab:grey', alpha=0.4, extent=(wmin,wmax,wmin,wmax))
                 ax.set_xlim([-50, 1200])
                 ax.set_ylim([2900, 4100])
+                ax.set_xlabel(r'$\omega_1$ (cm$^{-1}$)')
+                ax.set_ylabel(r'$\omega_2$ (cm$^{-1}$)')
                 ax.set_aspect('equal', adjustable='box')
-                ax.set_title([r'Classical MD', r'TRPMD'][i], x = 0.45, y = 0.99, fontsize = fontsize)
+                #ax.set_title([r'Classical MD', r'TRPMD'][i], x = 0.45, y = 0.99, fontsize = fontsize)
                 ax.xaxis.set_ticks_position('both')
                 ax.yaxis.set_ticks_position('both')
-                ax.tick_params(which='both', direction='in', labelleft = [True, False][i])
+                ax.tick_params(which='both', direction='in', labelleft = True)
                 ax.xaxis.set_major_locator(MultipleLocator(500))
                 ax.xaxis.set_minor_locator(MultipleLocator(100))
                 ax.yaxis.set_major_locator(MultipleLocator(500))
                 ax.yaxis.set_minor_locator(MultipleLocator(250))
-            cbar = fig.colorbar(cs, ax=ax, shrink = 0.8, location = 'right', aspect = 15, extendrect=True)
+                cbar = fig.colorbar(cs, ax=ax, shrink = 0.8, location = 'right', aspect = 15, extendrect=True)
             #cbar.add_lines(cs2)
-            cbar.ax.set_ylabel(y_label_right, labelpad = 27.5, rotation=270)
-            cbar.set_ticks([cbarticks1, cbarticks2][j])
-            cbar.set_ticklabels([cbarticklabels1, cbarticklabels2][j])
-            for t in cbar.ax.get_yticklabels():
-             t.set_horizontalalignment('right')
-             t.set_x(4.5)
+                cbar.ax.set_ylabel(y_label_right, labelpad = 27.5, rotation=270, fontsize=labelsize)
+                cbar.set_ticks([cbarticks1, cbarticks2][j])
+                cbar.set_ticklabels([cbarticklabels1, cbarticklabels2][j])
+                #for t in cbar.ax.get_yticklabels():
+                # t.set_horizontalalignment('right')
+                # t.set_x(4.5)
+                plt.savefig('2D_IR_Raman_spectra{}.pdf'.format(i),bbox_inches='tight')
 
-            plt.subplots_adjust(left=0.17,
-                        bottom=0.03,
-                        right=0.87,
-                        top=1.02,
-                        wspace=0.05,
-                        hspace=-0.2)
+         #   plt.subplots_adjust(left=0.17,
+         #               bottom=0.03,
+         #               right=0.87,
+         #               top=1.02,
+         #               wspace=0.05,
+         #               hspace=-0.2)
 
-            fig.text(0.02, 0.53, y_label_left, va='center', rotation='vertical')
-            fig.text(0.5, 0.015, x_label, ha='center')
+         #   fig.text(0.02, 0.53, y_label_left, va='center', rotation='vertical')
+         #   fig.text(0.5, 0.015, x_label, ha='center')
 
-            plt.savefig('2D_IR_Raman_spectra.pdf')
 
 if __name__ == '__main__':
     plot(x_label,y_label_left,y_label_right)

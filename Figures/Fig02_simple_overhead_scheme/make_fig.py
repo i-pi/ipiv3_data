@@ -14,14 +14,15 @@ plt.rc("axes", linewidth=2, labelpad=10)
 #plt.rcParams["xtick.direction"] = "in"
 plt.rcParams["ytick.direction"] = "in"
 plt.rc("xtick.major", size=tick_major_size, width=2)
-plt.rc("xtick.minor", size=tick_minor_size, width=2)
+#plt.rc("xtick.minor", size=tick_minor_size, width=2)
 plt.rc("ytick.major", size=tick_major_size, width=2)
-plt.rc("ytick.minor", size=tick_minor_size, width=2)
+plt.rc("ytick.minor", size=0, width=2)
 
-fig,ax = plt.subplots(figsize=(6,5))
+#fig,ax = plt.subplots(figsize=(5,4))
 
-fig, ax = plt.subplots(1, figsize=(7,5), constrained_layout=True)
+fig, ax = plt.subplots(1, figsize=(6.6,5), constrained_layout=True)
 x = np.geomspace(1e-5, 1e2, 100)
+ax.minorticks_off()
 
 ax.loglog(x, 86.4e3*1e-6/x, ':', c='gray', label=r"$\tau_\mathrm{O}=0$ (ideal)")
 for e, c, t in zip([-5,-3,-1, 1], ["#0000B0", "#401090", "#802040", "#FF4010"], ["10^{-2}$ ms","10^0$ ms", "10^2$ ms", "10^4$ ms"]):
