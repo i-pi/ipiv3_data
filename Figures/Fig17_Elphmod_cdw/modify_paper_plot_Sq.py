@@ -4,6 +4,7 @@
 #import elphmod
 import numpy as np
 import matplotlib.pyplot as plt
+#import sys
 plt.style.use('tableau-colorblind10')
 from matplotlib import cm
 from matplotlib import colors
@@ -342,6 +343,7 @@ for ii,(SRT,panel) in enumerate(zip(SRT_list,panel_label_list)):
     """""""""""""""""""""""""""""""""""""""
 
 #    outline = elphmod.bravais.BZ() 
+    outline=np.load('bravaisBZ.npy')
     outline = np.array(outline) / (a / nk)
     outline = list(outline)
 
