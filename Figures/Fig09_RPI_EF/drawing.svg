@@ -7,7 +7,7 @@
    viewBox="0 0 175.58372 402.7064"
    version="1.1"
    id="svg1"
-   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   inkscape:version="1.3.2 (1:1.3.2+202311252150+091e20ef0f)"
    sodipodi:docname="drawing.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -24,12 +24,12 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      inkscape:zoom="0.52382156"
-     inkscape:cx="72.543788"
-     inkscape:cy="835.20809"
-     inkscape:window-width="1850"
-     inkscape:window-height="1016"
-     inkscape:window-x="0"
-     inkscape:window-y="0"
+     inkscape:cx="656.71218"
+     inkscape:cy="479.17081"
+     inkscape:window-width="2490"
+     inkscape:window-height="1376"
+     inkscape:window-x="2630"
+     inkscape:window-y="143"
      inkscape:window-maximized="1"
      inkscape:current-layer="layer1"
      inkscape:pageshadow="0"
@@ -5023,87 +5023,6 @@
          id="g6691"
          clip-path="url(#clipPath6695)" />
     </g>
-    <text
-       id="text36-3-5-2-3"
-       xml:space="preserve"
-       x="-34.493698"
-       y="326.86966"
-       style="font-size:9.87778px;stroke-width:0.352777"><tspan
-         style="font-variant:normal;font-weight:normal;font-size:9.87778px;font-family:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352777"
-         x="-34.493698"
-         y="326.86966"
-         sodipodi:role="line"
-         id="tspan37-5-8-5-6">No friction</tspan></text>
-    <g
-       id="g22220"
-       transform="matrix(0.35277777,0,0,-0.35277777,-86.905262,402.26138)">
-      <g
-         id="g22222"
-         clip-path="url(#clipPath22226)" />
-    </g>
-    <g
-       id="g23477"
-       transform="matrix(0.35277777,0,0,-0.35277777,-86.905262,581.33686)">
-      <g
-         id="g23479"
-         clip-path="url(#clipPath23483)" />
-    </g>
-    <g
-       id="g23485"
-       transform="matrix(0.35277777,0,0,-0.35277777,-86.905262,581.33686)">
-      <g
-         id="g23487"
-         clip-path="url(#clipPath23491)" />
-    </g>
-    <g
-       id="g23493"
-       transform="matrix(0.35277777,0,0,-0.35277777,-86.905262,581.33686)">
-      <g
-         id="g23495"
-         clip-path="url(#clipPath23499)" />
-    </g>
-    <g
-       id="g23501"
-       transform="matrix(0.35277777,0,0,-0.35277777,-86.905262,581.33686)">
-      <g
-         id="g23503"
-         clip-path="url(#clipPath23507)" />
-    </g>
-    <g
-       id="g58034"
-       transform="matrix(0.35277777,0,0,-0.35277777,-256.1103,463.90964)">
-      <g
-         id="g58036"
-         clip-path="url(#clipPath58040)" />
-    </g>
-    <g
-       id="g59291"
-       transform="matrix(0.35277777,0,0,-0.35277777,-257.53119,608.05632)">
-      <g
-         id="g59293"
-         clip-path="url(#clipPath59297)" />
-    </g>
-    <g
-       id="g59299"
-       transform="matrix(0.35277777,0,0,-0.35277777,-257.53119,608.05632)">
-      <g
-         id="g59301"
-         clip-path="url(#clipPath59305)" />
-    </g>
-    <g
-       id="g59307"
-       transform="matrix(0.35277777,0,0,-0.35277777,-257.53119,608.05632)">
-      <g
-         id="g59309"
-         clip-path="url(#clipPath59313)" />
-    </g>
-    <g
-       id="g59315"
-       transform="matrix(0.35277777,0,0,-0.35277777,-257.53119,608.05632)">
-      <g
-         id="g59317"
-         clip-path="url(#clipPath59321)" />
-    </g>
     <g
        id="g7393"
        inkscape:label="instanton"
@@ -5920,6 +5839,87 @@
            style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
            id="path7973" />
       </g>
+    </g>
+    <text
+       id="text36-3-5-2-3"
+       xml:space="preserve"
+       x="-34.493698"
+       y="326.86966"
+       style="font-size:9.87778px;stroke-width:0.352777"><tspan
+         style="font-variant:normal;font-weight:normal;font-size:9.87778px;font-family:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352777"
+         x="-34.493698"
+         y="326.86966"
+         sodipodi:role="line"
+         id="tspan37-5-8-5-6">No friction</tspan></text>
+    <g
+       id="g22220"
+       transform="matrix(0.35277777,0,0,-0.35277777,-86.905262,402.26138)">
+      <g
+         id="g22222"
+         clip-path="url(#clipPath22226)" />
+    </g>
+    <g
+       id="g23477"
+       transform="matrix(0.35277777,0,0,-0.35277777,-86.905262,581.33686)">
+      <g
+         id="g23479"
+         clip-path="url(#clipPath23483)" />
+    </g>
+    <g
+       id="g23485"
+       transform="matrix(0.35277777,0,0,-0.35277777,-86.905262,581.33686)">
+      <g
+         id="g23487"
+         clip-path="url(#clipPath23491)" />
+    </g>
+    <g
+       id="g23493"
+       transform="matrix(0.35277777,0,0,-0.35277777,-86.905262,581.33686)">
+      <g
+         id="g23495"
+         clip-path="url(#clipPath23499)" />
+    </g>
+    <g
+       id="g23501"
+       transform="matrix(0.35277777,0,0,-0.35277777,-86.905262,581.33686)">
+      <g
+         id="g23503"
+         clip-path="url(#clipPath23507)" />
+    </g>
+    <g
+       id="g58034"
+       transform="matrix(0.35277777,0,0,-0.35277777,-256.1103,463.90964)">
+      <g
+         id="g58036"
+         clip-path="url(#clipPath58040)" />
+    </g>
+    <g
+       id="g59291"
+       transform="matrix(0.35277777,0,0,-0.35277777,-257.53119,608.05632)">
+      <g
+         id="g59293"
+         clip-path="url(#clipPath59297)" />
+    </g>
+    <g
+       id="g59299"
+       transform="matrix(0.35277777,0,0,-0.35277777,-257.53119,608.05632)">
+      <g
+         id="g59301"
+         clip-path="url(#clipPath59305)" />
+    </g>
+    <g
+       id="g59307"
+       transform="matrix(0.35277777,0,0,-0.35277777,-257.53119,608.05632)">
+      <g
+         id="g59309"
+         clip-path="url(#clipPath59313)" />
+    </g>
+    <g
+       id="g59315"
+       transform="matrix(0.35277777,0,0,-0.35277777,-257.53119,608.05632)">
+      <g
+         id="g59317"
+         clip-path="url(#clipPath59321)" />
     </g>
     <g
        id="g8272"
