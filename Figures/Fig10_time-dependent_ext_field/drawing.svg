@@ -24,9 +24,9 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
-     inkscape:zoom="1.0476431"
-     inkscape:cx="333.12872"
-     inkscape:cy="555.5327"
+     inkscape:zoom="2.0952862"
+     inkscape:cx="278.24361"
+     inkscape:cy="499.69307"
      inkscape:window-width="2490"
      inkscape:window-height="1376"
      inkscape:window-x="2630"
@@ -7449,12 +7449,12 @@
            id="tspan21814">str,sym</tspan></text>
     </g>
     <path
-       d="m -23.376778,442.35494 h 6.35 6.35"
+       d="m -29.197615,442.35494 h 6.35 6.35"
        style="fill:none;stroke:#ffa500;stroke-width:0.705556;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
        id="path21818-9" />
     <g
        id="g21820"
-       transform="matrix(0.35277777,0,0,-0.35277777,-5.5967782,444.57744)">
+       transform="matrix(0.35277777,0,0,-0.35277777,-11.417612,444.57744)">
       <text
          transform="matrix(1,0,0,-1,0,0.875)"
          style="font-variant:normal;font-weight:normal;font-size:18px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -7472,12 +7472,16 @@
            id="tspan21826">str,asym</tspan></text>
     </g>
     <path
-       d="m -23.376778,452.58549 h 6.35 6.35"
+       d="m -29.197615,451.87994 h 6.35 6.35"
        style="fill:none;stroke:#000000;stroke-width:0.705556;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
        id="path21830-2" />
+    <path
+       d="m 21.743493,451.87994 h 6.35 6.35"
+       style="fill:none;stroke:#cf9fe7;stroke-width:0.705556;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+       id="path21830-2-5" />
     <g
        id="g21832"
-       transform="matrix(0.35277777,0,0,-0.35277777,-5.5967782,454.80799)">
+       transform="matrix(0.35277777,0,0,-0.35277777,-11.417612,454.80799)">
       <text
          transform="matrix(1,0,0,-1,0,0.875)"
          style="font-variant:normal;font-weight:normal;font-size:18px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -7495,12 +7499,12 @@
            id="tspan21838">tot</tspan></text>
     </g>
     <path
-       d="m 28.622664,442.35494 h 6.35 6.349999"
+       d="m 21.743493,442.35494 h 6.35 6.349999"
        style="fill:none;stroke:#6b8e23;stroke-width:0.705556;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
        id="path21842-2" />
     <g
        id="g21844"
-       transform="matrix(0.35277777,0,0,-0.35277777,46.402663,444.57744)">
+       transform="matrix(0.35277777,0,0,-0.35277777,42.698494,444.57744)">
       <text
          transform="matrix(1,0,0,-1,0,0.875)"
          style="font-variant:normal;font-weight:normal;font-size:18px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -7662,49 +7666,37 @@
            id="path22006-3" />
       </g>
     </g>
+    <path
+       d="M -68.986073,558.51729 V 460.7273"
+       style="fill:none;stroke:#000000;stroke-width:0.705556;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+       id="path22010" />
+    <path
+       d="M 49.123924,558.51729 V 460.7273"
+       style="fill:none;stroke:#000000;stroke-width:0.705556;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+       id="path22012" />
+    <path
+       d="M -68.986073,558.51729 H 49.123924"
+       style="fill:none;stroke:#000000;stroke-width:0.705556;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+       id="path22014" />
+    <path
+       d="M -68.986073,460.7273 H 49.123924"
+       style="fill:none;stroke:#000000;stroke-width:0.705556;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+       id="path22016" />
     <g
-       id="g22008"
-       transform="matrix(0.35277777,0,0,-0.35277777,-97.852114,580.22856)">
-      <path
-         d="m 81.825,61.54375 v 277.2"
-         style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-         id="path22010" />
-      <path
-         d="m 416.625,61.54375 v 277.2"
-         style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-         id="path22012" />
-      <path
-         d="m 81.825,61.54375 h 334.8"
-         style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-         id="path22014" />
-      <path
-         d="m 81.825,338.74375 h 334.8"
-         style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-         id="path22016" />
-      <path
-         d="m 94.425,297.92187 h 67.6 c 2.4,0 3.6,1.2 3.6,3.6 v 24.62188 c 0,2.4 -1.2,3.6 -3.6,3.6 h -67.6 c -2.4,0 -3.6,-1.2 -3.6,-3.6 v -24.62188 c 0,-2.4 1.2,-3.6 3.6,-3.6 z"
-         style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-         id="path22018-6" />
-      <path
-         d="m 98.025,315.17187 h 18 18"
-         style="fill:none;stroke:#9932cc;stroke-width:1;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:0.5"
-         id="path22020" />
+       id="g22022"
+       transform="matrix(0.35277777,0,0,-0.35277777,42.287573,454.13112)">
       <g
-         id="g22022"
-         transform="translate(148.425,308.87187)">
+         id="g22024"
+         transform="matrix(0.018,0,0,0.018,0,0.9375)">
         <g
-           id="g22024"
-           transform="matrix(0.018,0,0,0.018,0,0.9375)">
+           id="g22026">
           <g
-             id="g22026">
-            <g
-               id="g22028"
-               clip-path="url(#clipPath22032-2)">
-              <path
-                 d="m 511,152 16,-18 C 477,80 419,42 355,20 311,4 262,-3 208,-3 162,-3 123,7 90,27 56,47 40,76 40,115 c 0,55 21,103 63,143 42,40 92,71 150,95 -14,6 -25,12 -32,17 -8,4 -16,11 -25,19 -9,8 -15,19 -19,31 -4,12 -6,26 -6,43 0,36 16,70 48,104 32,33 69,58 111,76 42,18 80,27 115,27 46,0 84,-9 112,-25 28,-17 42,-42 42,-74 0,-15 -6,-32 -18,-50 -12,-18 -30,-27 -54,-27 -14,0 -27,4 -38,14 -11,9 -16,21 -16,35 0,15 5,28 15,40 10,11 15,18 15,20 0,12 -4,21 -11,26 -8,5 -20,8 -36,8 -51,0 -97,-15 -138,-45 -41,-30 -61,-63 -61,-99 0,-28 12,-49 37,-65 24,-16 57,-23 97,-23 h 68 l -9,-38 c -29,0 -61,-6 -95,-17 -34,-11 -67,-26 -98,-44 -32,-19 -58,-43 -79,-73 -21,-30 -31,-61 -31,-93 0,-30 11,-52 33,-67 22,-16 53,-23 92,-23 40,0 84,10 130,30 46,20 83,44 109,72 z"
-                 style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-                 id="path22034" />
-            </g>
+             id="g22028"
+             clip-path="url(#clipPath22032-2)">
+            <path
+               d="m 511,152 16,-18 C 477,80 419,42 355,20 311,4 262,-3 208,-3 162,-3 123,7 90,27 56,47 40,76 40,115 c 0,55 21,103 63,143 42,40 92,71 150,95 -14,6 -25,12 -32,17 -8,4 -16,11 -25,19 -9,8 -15,19 -19,31 -4,12 -6,26 -6,43 0,36 16,70 48,104 32,33 69,58 111,76 42,18 80,27 115,27 46,0 84,-9 112,-25 28,-17 42,-42 42,-74 0,-15 -6,-32 -18,-50 -12,-18 -30,-27 -54,-27 -14,0 -27,4 -38,14 -11,9 -16,21 -16,35 0,15 5,28 15,40 10,11 15,18 15,20 0,12 -4,21 -11,26 -8,5 -20,8 -36,8 -51,0 -97,-15 -138,-45 -41,-30 -61,-63 -61,-99 0,-28 12,-49 37,-65 24,-16 57,-23 97,-23 h 68 l -9,-38 c -29,0 -61,-6 -95,-17 -34,-11 -67,-26 -98,-44 -32,-19 -58,-43 -79,-73 -21,-30 -31,-61 -31,-93 0,-30 11,-52 33,-67 22,-16 53,-23 92,-23 40,0 84,10 130,30 46,20 83,44 109,72 z"
+               style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               id="path22034" />
           </g>
         </g>
       </g>
