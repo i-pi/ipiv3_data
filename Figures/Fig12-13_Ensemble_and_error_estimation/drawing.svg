@@ -2,9 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="156.10451mm"
-   height="183.40623mm"
-   viewBox="0 0 156.10451 183.40623"
+   width="153.99649mm"
+   height="174.90459mm"
+   viewBox="0 0 153.99649 174.90458"
    version="1.1"
    id="svg1"
    inkscape:version="1.3.2 (1:1.3.2+202311252150+091e20ef0f)"
@@ -24,8 +24,8 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      inkscape:zoom="1.0476431"
-     inkscape:cx="429.53559"
-     inkscape:cy="398.99084"
+     inkscape:cx="421.8994"
+     inkscape:cy="399.94536"
      inkscape:window-width="2490"
      inkscape:window-height="1376"
      inkscape:window-x="2630"
@@ -251,42 +251,42 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(8.466667,17.72707)">
+     transform="translate(6.3586429,17.72707)">
     <path
        id="path1"
-       d="M -8.466667,165.67917 H 147.63784 V -17.72707 H -8.466667 Z"
-       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.509012" />
+       d="M -6.3586429,157.17752 H 147.63784 V -17.72707 H -6.3586429 Z"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.493707" />
     <text
        id="text36-3-5-2-3-9"
        xml:space="preserve"
-       x="54.60667"
+       x="60.869534"
        y="-9.2001648"
-       style="font-size:9.87778px;stroke-width:0.352777"><tspan
-         style="font-variant:normal;font-weight:normal;font-size:9.87778px;font-family:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352777"
-         x="54.60667"
+       style="font-size:7.05556px;stroke-width:0.352777"><tspan
+         style="font-variant:normal;font-weight:normal;font-size:7.05556px;font-family:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352777"
+         x="60.869534"
          y="-9.2001648"
          sodipodi:role="line"
          id="tspan37-5-8-5-6-3">Reweight</tspan></text>
     <text
        id="text36-3-5-2-3-7-5"
        xml:space="preserve"
-       x="65.140396"
-       y="86.323807"
-       style="font-size:9.87778px;stroke-width:0.352777"><tspan
-         style="font-variant:normal;font-weight:normal;font-size:9.87778px;font-family:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352777"
-         x="65.140396"
-         y="86.323807"
+       x="68.393623"
+       y="79.444633"
+       style="font-size:7.05556px;stroke-width:0.352777"><tspan
+         style="font-variant:normal;font-weight:normal;font-size:7.05556px;font-family:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352777"
+         x="68.393623"
+         y="79.444633"
          sodipodi:role="line"
          id="tspan37-5-8-5-6-5-0">CEA</tspan></text>
     <text
        id="text36-3-5-0-4-3-6-3"
        xml:space="preserve"
        x="-4.0200348"
-       y="85.38604"
+       y="78.506866"
        style="font-size:9.87778px;stroke-width:0.352777"><tspan
          style="font-variant:normal;font-weight:normal;font-size:9.87778px;font-family:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352777"
          x="-4.0200348"
-         y="85.38604"
+         y="78.506866"
          sodipodi:role="line"
          id="tspan37-5-8-0-8-5-2-9">b)</tspan></text>
     <text
@@ -304,20 +304,20 @@
        id="text44"
        xml:space="preserve"
        x="71.672272"
-       y="70.383919"
+       y="66.150581"
        style="font-size:4.23333px;stroke-width:0.352778"><tspan
          style="font-style:oblique;font-variant:normal;font-weight:normal;font-size:6.35px;font-family:'DejaVu Sans';writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352778"
          x="71.672272"
-         y="70.383919"
+         y="66.150581"
          id="tspan44">t</tspan><tspan
          style="font-variant:normal;font-weight:normal;font-size:6.35px;font-family:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352778"
          x="74.162041 75.92627 78.040871 81.572441 84.747437"
-         y="70.383919"
+         y="66.150581"
          sodipodi:role="line"
          id="tspan45"> (ps)</tspan></text>
     <g
        id="g47"
-       transform="matrix(0.26458333,0,0,0.26458333,-7.710999,-3.0323661)">
+       transform="matrix(0.26458333,0,0,0.26458333,-7.710999,-7.2656997)">
       <path
          d="M 528,312 H 56 v 82 h 472 z"
          style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -329,28 +329,28 @@
        id="text52"
        xml:space="preserve"
        transform="rotate(-90)"
-       x="-34.265961"
+       x="-30.032623"
        y="0.81087369"
        style="font-size:4.23333px;stroke-width:0.352778"><tspan
          style="font-style:oblique;font-variant:normal;font-weight:normal;font-size:6.35px;font-family:'DejaVu Sans';writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352778"
-         x="-34.265961"
+         x="-30.032623"
          y="0.81087369"
          id="tspan52">n</tspan><tspan
          style="font-variant:normal;font-weight:normal;font-size:4.445px;font-family:'DejaVu Sans';writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352778"
-         x="-30.241402"
+         x="-26.008064"
          y="1.8526706"
          id="tspan53">s</tspan><tspan
          style="font-style:oblique;font-variant:normal;font-weight:normal;font-size:6.35px;font-family:'DejaVu Sans';writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352778"
-         x="-19.957067"
+         x="-15.723731"
          y="0.81087369"
          id="tspan54">n</tspan><tspan
          style="font-style:oblique;font-variant:normal;font-weight:normal;font-size:4.445px;font-family:'DejaVu Sans';writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352778"
-         x="-13.394364"
+         x="-9.1610346"
          y="1.8526706"
          id="tspan55">k</tspan></text>
     <g
        id="g56"
-       transform="matrix(0.26458333,0,0,0.26458333,-5.0651655,-3.0323661)">
+       transform="matrix(0.26458333,0,0,0.26458333,-5.0651655,-7.2656997)">
       <path
          d="m 89,313 138,446 h 83 L 172,313 310,-131 h -83 z"
          style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -360,7 +360,7 @@
     </g>
     <g
        id="g58"
-       transform="matrix(0.26458333,0,0,0.26458333,-5.0651655,-3.0323661)">
+       transform="matrix(0.26458333,0,0,0.26458333,-5.0651655,-7.2656997)">
       <path
          d="M 106,355 H 732 V 272 H 106 Z"
          style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -370,7 +370,7 @@
     </g>
     <g
        id="g60"
-       transform="matrix(0.26458333,0,0,0.26458333,-5.0651655,-3.0323661)">
+       transform="matrix(0.26458333,0,0,0.26458333,-5.0651655,-7.2656997)">
       <path
          d="m -393,745 h 292 v -72 h -292 z"
          style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -380,7 +380,7 @@
     </g>
     <g
        id="g62"
-       transform="matrix(0.26458333,0,0,0.26458333,-5.0651655,-3.0323661)">
+       transform="matrix(0.26458333,0,0,0.26458333,-5.0651655,-7.2656997)">
       <path
          d="M 301,313 163,-131 H 80 L 218,313 80,759 h 83 z"
          style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -390,7 +390,7 @@
     </g>
     <g
        id="g2"
-       transform="translate(0.27942524,3.1750001)">
+       transform="translate(0.27942524,-1.0583333)">
       <path
          id="path2"
          d="M 15.236177,46.18005 H 143.63058 V -5.1489452 H 15.236177 Z"
@@ -744,20 +744,20 @@
        id="text44-6"
        xml:space="preserve"
        x="72.231117"
-       y="163.47722"
+       y="155.01067"
        style="font-size:4.23333px;stroke-width:0.352777"><tspan
          style="font-style:oblique;font-variant:normal;font-weight:normal;font-size:6.35px;font-family:'DejaVu Sans';writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352777"
          x="72.231117"
-         y="163.47722"
+         y="155.01067"
          id="tspan44-8">t</tspan><tspan
          style="font-variant:normal;font-weight:normal;font-size:6.35px;font-family:Arial;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352777"
          x="74.720886 76.485115 78.599716 82.131287 85.306282"
-         y="163.47722"
+         y="155.01067"
          sodipodi:role="line"
          id="tspan45-9"> (ps)</tspan></text>
     <g
        id="g47-4"
-       transform="matrix(0.26458333,0,0,0.26458333,-7.1521515,90.06102)">
+       transform="matrix(0.26458333,0,0,0.26458333,-7.1521515,81.594348)">
       <path
          d="M 528,312 H 56 v 82 h 472 z"
          style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -769,28 +769,28 @@
        id="text52-7"
        xml:space="preserve"
        transform="rotate(-90)"
-       x="-127.35934"
+       x="-118.89268"
        y="0.31139338"
        style="font-size:4.23333px;stroke-width:0.352777"><tspan
          style="font-style:oblique;font-variant:normal;font-weight:normal;font-size:6.35px;font-family:'DejaVu Sans';writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352777"
-         x="-127.35934"
+         x="-118.89268"
          y="0.31139338"
          id="tspan52-2">n</tspan><tspan
          style="font-variant:normal;font-weight:normal;font-size:4.445px;font-family:'DejaVu Sans';writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352777"
-         x="-123.33478"
+         x="-114.86813"
          y="1.3531902"
          id="tspan53-2">s</tspan><tspan
          style="font-style:oblique;font-variant:normal;font-weight:normal;font-size:6.35px;font-family:'DejaVu Sans';writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352777"
-         x="-113.05044"
+         x="-104.58379"
          y="0.31139338"
          id="tspan54-6">n</tspan><tspan
          style="font-style:oblique;font-variant:normal;font-weight:normal;font-size:4.445px;font-family:'DejaVu Sans';writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352777"
-         x="-106.48777"
+         x="-98.021133"
          y="1.3531902"
          id="tspan55-1">k</tspan></text>
     <g
        id="g56-0"
-       transform="matrix(0.26458333,0,0,0.26458333,-5.5646514,90.06102)">
+       transform="matrix(0.26458333,0,0,0.26458333,-5.5646514,81.594348)">
       <path
          d="m 89,313 138,446 h 83 L 172,313 310,-131 h -83 z"
          style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -800,7 +800,7 @@
     </g>
     <g
        id="g58-1"
-       transform="matrix(0.26458333,0,0,0.26458333,-5.5646514,90.06102)">
+       transform="matrix(0.26458333,0,0,0.26458333,-5.5646514,81.594348)">
       <path
          d="M 106,355 H 732 V 272 H 106 Z"
          style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -810,7 +810,7 @@
     </g>
     <g
        id="g60-9"
-       transform="matrix(0.26458333,0,0,0.26458333,-5.5646514,90.06102)">
+       transform="matrix(0.26458333,0,0,0.26458333,-5.5646514,81.594348)">
       <path
          d="m -393,745 h 292 v -72 h -292 z"
          style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -820,7 +820,7 @@
     </g>
     <g
        id="g62-9"
-       transform="matrix(0.26458333,0,0,0.26458333,-5.5646514,90.06102)">
+       transform="matrix(0.26458333,0,0,0.26458333,-5.5646514,81.594348)">
       <path
          d="M 301,313 163,-131 H 80 L 218,313 80,759 h 83 z"
          style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -830,7 +830,7 @@
     </g>
     <g
        id="g1"
-       transform="translate(-0.27942375,5.8208336)">
+       transform="translate(-0.27942375,-2.6458334)">
       <path
          id="path2-1"
          d="M 15.795026,136.6276 H 144.18943 V 85.298604 H 15.795026 Z"
