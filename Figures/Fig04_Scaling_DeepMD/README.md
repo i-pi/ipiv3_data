@@ -7,4 +7,4 @@ Data and scripts to generate figures related to Efficiency of large-scale simula
 
 In all the files the first column is the number of mpi process (so number of cpu/gpu allocated) per instances.
 
-All the files are taken from the timing in `../../Efficiency_benchmarks_input_files/Figure3`
+All the files are taken from the timing in `../../Efficiency_benchmarks_input_files/Figure4`

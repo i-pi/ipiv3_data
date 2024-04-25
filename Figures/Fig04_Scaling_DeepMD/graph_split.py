@@ -35,7 +35,7 @@ lammps_gpu = np.loadtxt(f"{folder}/timing_lammps_gpu.out")
 # %%
 ipi_32beads_cpu = {}
 ipi_32beads_gpu = {}
-for i in [1, 2, 4, 8, 16]:
+for i in [1, 2, 4, 8]:
     ipi_32beads_cpu[f"{i}_lammps"] = np.loadtxt(
         f"{folder}/timing_ipi-32_beads-{i}_lammps_cpu.out"
     )
@@ -43,6 +43,9 @@ for i in [1, 2, 4, 8, 16]:
         f"{folder}/timing_ipi-32_beads-{i}_lammps_gpu.out"
     )
 
+ipi_32beads_cpu[f"16_lammps"] = np.loadtxt(
+    f"{folder}/timing_ipi-32_beads-16_lammps_cpu.out"
+)
 ipi_32beads_cpu[f"32_lammps"] = np.loadtxt(
     f"{folder}/timing_ipi-32_beads-32_lammps_cpu.out"
 )
@@ -158,8 +161,8 @@ axs.loglog(
     alpha=0.8,
 )
 axs.loglog(
-    ipi_32beads_gpu["8_lammps"][:, 0] * 8,
-    ipi_32beads_gpu["8_lammps"][:, 1],
+    ipi_32beads_gpu["8_lammps"][ 0] * 8,
+    ipi_32beads_gpu["8_lammps"][ 1],
     ls="-",
     marker="o",
     color="blue",
