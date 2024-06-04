@@ -4,7 +4,7 @@
 #SBATCH --ntasks=72
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=0
-#SBATCH --time=00:30:00
+#SBATCH --time=12:30:00
 #SBATCH --exclusive
 #SBATCH --qos=serial
 
@@ -16,13 +16,13 @@ echo 'OMP_NUM_THREADS='$OMP_NUM_THREADS
 export TF_INTER_OP_PARALLELISM_THREADS=1
 export TF_INTRA_OP_PARALLELISM_THREADS=1
 
-IPI=/home/tisi/ipi-paper-test/i-pi-main-3.0/bin/i-pi
+IPI=/home/tisi/ipi-paper-test/i-pi-main-3.0-beta2/bin/i-pi
 #IPI=/home/tisi/ipi-paper-test/venv-cpu/bin/i-pi
 srun -n 1 --exclusive python -u $IPI ../input_xml.xml &> log.ipi &
 sleep 15
 
 echo 'run deepmd number '$i
 #srun -n ${SLURM_CPUS_PER_TASK} dp_ipi ../water.json >dp$i.out &
-srun -n 71 --exclusive lmp -in ../input-ipi-lammps.lammps >dp.out &
+srun -n 71 --exclusive /home/tisi/ipi-paper-test/lammps-labcosmo_jed/src/lmp_mpi -in ../input-ipi-lammps.lammps >dp.out &
 
 wait
