@@ -17,7 +17,7 @@ echo 'OMP_NUM_THREADS='$OMP_NUM_THREADS
 export TF_INTRA_OP_PARALLELISM_THREADS=1
 export TF_INTER_OP_PARALLELISM_THREADS=1
 
-IPI=/home/tisi/ipi-paper-test/i-pi-main-3.0/bin/i-pi
+IPI=/home/tisi/ipi-paper-test/i-pi-main-3.0-beta2/bin/i-pi
 #IPI=/home/tisi/ipi-paper-test/venv-cpu/bin/i-pi
 #srun -n 1 --exclusive python -u $IPI ../input_xml.xml &> log.ipi &
 python -u $IPI ../input_xml.xml &> log.ipi &
@@ -27,7 +27,7 @@ for i in 1 ;
 do
 echo 'run deepmd number '$i
 #srun -n ${SLURM_CPUS_PER_TASK} dp_ipi ../water.json >dp$i.out &
-srun -n 2 --exclusive lmp -in ../input-ipi-lammps.lammps >dp.out &
+srun -n 2 --exclusive /home/tisi/ipi-paper-test/lammps-labcosmo/src/lmp_mpi -in ../input-ipi-lammps.lammps >dp.out &
 sleep 2
 done
 
