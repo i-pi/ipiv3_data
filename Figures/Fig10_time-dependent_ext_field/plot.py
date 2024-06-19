@@ -96,7 +96,7 @@ ax.set_xlim(0,500)
 
 ax.set_xlabel("Time (fs)",fontsize=fontsize)
 ax.set_ylabel("Energy (eV)",fontsize=fontsize)
-ax2.set_ylabel("E-field (eV/ang)",fontsize=fontsize)
+ax2.set_ylabel(r'E-field (eV/$\mathrm{\AA}$)',fontsize=fontsize)
 ax.grid(linestyle="dashed",alpha=0.7)
 
 legend1 = ax.legend(facecolor='white', ncol=3,

@@ -137,7 +137,7 @@ for iplot in range(3):
     axs.set_ylim(0.06,90)
 
     if iplot == 0:
-        axs.set_ylabel('time per step (ms/step)')
+        axs.set_ylabel('Time per step (ms)')
         axs.legend(loc='upper left')
 
     plt.tight_layout()
